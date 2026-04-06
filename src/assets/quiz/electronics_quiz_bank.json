@@ -1,0 +1,1624 @@
+{
+  "electronics-day-1-topic-1-quiz-data": [
+    {
+      "id": "q1",
+      "question": "सर्किटमध्ये इलेक्ट्रॉन्स हलण्यासाठी आवश्यक “पुश” कोण देतो?",
+      "options": [
+        "A. बॅटरी",
+        "B. बल्ब",
+        "C. स्विच",
+        "D. प्लास्टिक कव्हर"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "सर्किटमध्ये तुटलेली जागा (break) असेल तर काय होते?",
+      "options": [
+        "A. बल्ब अधिक तेजाने पेटतो",
+        "B. वीज अधिक वेगाने वाहते",
+        "C. सर्किट ओपन (Open) होते",
+        "D. बॅटरी रिचार्ज होते"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q3",
+      "question": "खालीलपैकी कोणता पदार्थ वीजेचा चांगला चालक (Conductor) आहे?",
+      "options": [
+        "A. प्लास्टिक",
+        "B. लाकूड",
+        "C. तांबे",
+        "D. रबर"
+      ],
+      "correctOptionIndex": 2
+    }
+  ],
+  "electronics-day-1-topic-2-quiz-data": [
+    {
+      "id": "q1",
+      "question": "बल्बमध्ये कोणता भाग गरम होऊन प्रकाश निर्माण करतो?",
+      "options": [
+        "A. काच (Glass)",
+        "B. फिलामेंट",
+        "C. प्लास्टिक बेस",
+        "D. स्विच"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "कोणत्या प्रकारच्या सर्किटमध्ये एक बल्ब बंद पडला तरी इतर बल्ब चालू राहतात?",
+      "options": [
+        "A. क्लोज्ड सर्किट",
+        "B. सिरीज सर्किट",
+        "C. ओपन सर्किट",
+        "D. पॅरलल सर्किट"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q3",
+      "question": "सर्किटमध्ये स्विचचे काम काय असते?",
+
+      "options": [
+        "A. वीज साठवणे",
+        "B. करंटचा प्रवाह नियंत्रित करणे",
+        "C. करंट आल्यावर चमकणे",
+        "D. व्होल्टेज वाढवणे"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "electronics-day-1-topic-3-quiz-data": [
+    {
+      "id": "q1",
+      "question": "बॅटरीमध्ये कोणती ऊर्जा साठवलेली असते?",
+      "options": [
+        "A. विद्युत ऊर्जा",
+        "B. उष्णता ऊर्जा",
+        "C. रासायनिक ऊर्जा",
+        "D. प्रकाश ऊर्जा"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q2",
+      "question": "बॅटरीमधून कोणत्या प्रकारचा करंट मिळतो?",
+      "options": [
+        "A. AC",
+        "B. DC",
+        "C. मिश्र करंट",
+        "D. उलटा करंट"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "पक्षी एका वायरवर बसले असताना त्यांना शॉक का बसत नाही?",
+
+      "options": [
+        "A. त्यांच्या अंगावर पिसे असतात",
+        "B. हवा वीज वाहत नाही",
+        "C. ते फक्त एकाच वायरला स्पर्श करतात",
+        "D. त्या वायरमध्ये वीज नसते"
+      ],
+      "correctOptionIndex": 2
+    }
+  ],
+"electronics-day-1-topic-4-quiz-data": [
+    {
+      "id": "q1",
+      "question": "फ्यूजचे काम काय असते?",
+      "options": [
+        "A. बल्ब पेटवणे",
+        "B. जास्त करंट थांबवणे",
+        "C. वीज साठवणे",
+        "D. AC ला DC मध्ये बदलणे"
+       
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "खालीलपैकी वीजेचा नैसर्गिक स्रोत कोणता आहे?",
+
+      "options": [
+        "A. सौर ऊर्जा",
+        "B. बॅटरी",
+        "C. स्विच",
+        "D. वायर"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "स्विच OFF असताना काय होते?",
+
+      "options": [
+        "A. सर्किट पूर्ण होते",
+        "B. इलेक्ट्रॉन्स हलतात",
+        "C. सर्किट तुटते",
+        "D. बल्ब जास्त तेजाने पेटतो"
+      ],
+      "correctOptionIndex": 2
+    }
+  ],
+  
+"electronics-day-1-topic-5-quiz-data": [
+    {
+      "id": "q1",
+      "question": "खालीलपैकी कोणता इन्सुलेटर आहे?",
+
+      "options": [
+       "A. अॅल्युमिनियम",
+       "B. लोखंड",
+       "C. तांबे",
+       "D. प्लास्टिक"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q2",
+      "question": "सर्वत्र वीज पुरवणाऱ्या पॉवर लाईन्सच्या जाळ्याला काय म्हणतात?",
+      "options": [
+        "A. ग्रिड स्टेशन",
+        "B. पॉवर टेबल",
+        "C. राष्ट्रीय वीज जाळे (National Power Grid)",
+        "D. इलेक्ट्रिकल हब"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q3",
+      "question": "वायरवर प्लास्टिकचे कोटिंग का असते?",
+      "options": [
+        "A. त्यांना रंगीत बनवण्यासाठी",
+        "B. इलेक्ट्रिक शॉक टाळण्यासाठी",
+        "C. जास्त वीज वाहण्यासाठी",
+        "D. वायर जड बनवण्यासाठी"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+ 
+  "electronics-day-2-topic-1-quiz-data": [
+    {
+      "id": "q1",
+      "question": "LED सर्किटमध्ये योग्य प्रकारे जोडल्यास काय होते?",
+
+      "options": [
+        "A. LED पेटतो",
+        "B. LED वितळतो",
+        "C. बॅटरी काम करणे थांबवते",
+        "D. वायरचा रंग बदलतो"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": " LED च्या लांब पायाला काय म्हणतात?",
+      "options": [
+        "A. निगेटिव्ह टर्मिनल",
+        "B. पॉझिटिव्ह टर्मिनल",
+        "C. ग्राउंड पिन",
+        "D. स्विच पिन"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": ". LED चे पाय चुकीच्या प्रकारे जोडल्यास LED का पेटत नाही?",
+      "options": [
+        "A. LED चालण्यासाठी पाणी लागते",
+        "B. LED फक्त एका दिशेनेच काम करतो",
+        "C. वायर गरम होते",
+        "D. बॅटरी कमजोर होते"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "electronics-day-2-topic-2-quiz-data": [
+    {
+      "id": "q1",
+      "question": "बॅटरी सर्किटला काय पुरवते?",
+
+      "options": [
+      "A. प्रकाश",
+      "B. वीज",
+      "C. आवाज",
+      "D. फक्त उष्णता"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "LED चा कोणता पाय बॅटरीच्या पॉझिटिव्ह टर्मिनलला जोडला पाहिजे?",
+
+      "options": [
+        "A. लहान पाय (-)",
+        "B. लांब पाय (+)",
+        "C. कोणताही पाय",
+        "D. मधला पिन"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "जर तुम्ही वायरने बॅटरीचे दोन्ही टर्मिनल जोडले तर काय होईल?",
+
+      "options": [
+        "A. बॅटरी शॉर्ट सर्किट होऊ शकते",
+        "B. LED आपोआप पेटेल",
+        "C. बॅटरी थंड होईल",
+        "D. काहीच होणार नाही"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-1-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 6 Context 1, what is the first safe step before wiring a circuit?",
+      "options": [
+        "Disconnect power and inspect components",
+        "Touch both battery terminals",
+        "Skip checking polarity",
+        "Connect wires randomly"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why is component orientation important in many practical circuits?",
+      "options": [
+        "It always improves color",
+        "It can affect proper current flow",
+        "It reduces wire length only",
+        "It is needed only for switches"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q3",
+      "question": "A good troubleshooting habit is to:",
+      "options": [
+        "Change all parts at once",
+        "Test one section at a time",
+        "Ignore continuity",
+        "Remove every resistor"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "electronics-day-6-topic-2-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 2, what does continuity testing mainly confirm?",
+      "options": [
+        "Battery color",
+        "Presence of an electrical path",
+        "LED brightness level",
+        "Component age"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q2",
+      "question": "If continuity is missing where expected, you should first check:",
+      "options": [
+        "Loose or broken connections",
+        "Notebook spelling",
+        "Speaker volume",
+        "Room temperature only"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A multimeter in continuity mode usually helps detect:",
+      "options": [
+        "Open paths",
+        "Internet speed",
+        "Screen resolution",
+        "Video quality"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-3-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 3, careful wire routing is useful because it:",
+      "options": [
+        "Reduces accidental shorts",
+        "Increases random noise",
+        "Prevents all voltage drops",
+        "Removes the need for a source"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which practice makes debugging easier?",
+      "options": [
+        "Using labels and clear layout",
+        "Crossing all wires",
+        "Hiding test points",
+        "Avoiding measurements"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "An unintended wire touch can create:",
+      "options": [
+        "A short circuit",
+        "A stronger battery",
+        "More capacitance always",
+        "A software bug only"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-4-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 4, measuring voltage across a component tells you:",
+      "options": [
+        "Potential difference",
+        "Its color code",
+        "Its physical size",
+        "Its manufacturing date"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "To measure voltage correctly, a meter is connected:",
+      "options": [
+        "In parallel",
+        "In series with all loads",
+        "Without probes",
+        "Only to ground"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A zero reading at an expected node may indicate:",
+      "options": [
+        "Missing supply or disconnection",
+        "Perfect operation always",
+        "Excessive brightness",
+        "Higher frequency"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-5-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 5, current measurement generally requires placing the meter:",
+      "options": [
+        "In series with the path",
+        "In parallel with source",
+        "Across switch body",
+        "On continuity mode only"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What is important before measuring current?",
+      "options": [
+        "Correct meter range and lead port",
+        "Display wallpaper",
+        "Audio output selection",
+        "Video playback speed"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A much higher current than expected can suggest:",
+      "options": [
+        "Possible short or wrong resistance",
+        "Perfect tuning",
+        "No power source",
+        "Open circuit everywhere"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-6-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 6, why should resistor values be verified before use?",
+      "options": [
+        "To match target current/voltage",
+        "To change wire color",
+        "To increase battery weight",
+        "To remove all losses"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "If resistance is lower than designed, current is likely to:",
+      "options": [
+        "Increase",
+        "Decrease to zero",
+        "Stay always fixed",
+        "Become AC automatically"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A resistor is mainly used to:",
+      "options": [
+        "Limit current",
+        "Store digital files",
+        "Generate battery power",
+        "Act as a fuse"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-7-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 7, capacitor polarity matters mainly for:",
+      "options": [
+        "Polarized capacitors",
+        "All ceramic capacitors",
+        "Resistors only",
+        "Switches only"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A capacitor in simple terms can:",
+      "options": [
+        "Store and release charge",
+        "Increase wire length",
+        "Replace a battery permanently",
+        "Act as a diode"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Wrong orientation of an electrolytic capacitor may:",
+      "options": [
+        "Cause malfunction or damage",
+        "Improve stability always",
+        "Reduce voltage to exactly zero",
+        "Fix all noise issues"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-8-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 8, a diode primarily allows current:",
+      "options": [
+        "In one preferred direction",
+        "In both directions equally",
+        "Only at midnight",
+        "Only without voltage"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Diode orientation is identified by:",
+      "options": [
+        "Anode/cathode marking",
+        "Wire thickness only",
+        "Package weight",
+        "Board color"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Reversing a diode in a basic DC path can:",
+      "options": [
+        "Block expected conduction",
+        "Double battery voltage",
+        "Create oscillation always",
+        "Increase resistance to infinity in all cases"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-9-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 9, LED polarity should be checked because LEDs are:",
+      "options": [
+        "Directional devices",
+        "Pure resistors",
+        "Always bidirectional",
+        "Unaffected by wiring"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "What is commonly used with an LED to protect it?",
+      "options": [
+        "Series resistor",
+        "Parallel fuse only",
+        "Open switch",
+        "Extra battery"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "If LED does not glow, first practical check is:",
+      "options": [
+        "Polarity and current-limiting resistor",
+        "Phone brightness settings",
+        "Internet connectivity",
+        "Speaker wiring"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-10-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 10, a transistor in switching mode is usually:",
+      "options": [
+        "Used as ON/OFF control",
+        "Used as battery",
+        "Used as fuse wire",
+        "Used as antenna"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "For safe transistor operation, designers consider:",
+      "options": [
+        "Current and voltage ratings",
+        "Board color only",
+        "Cable brand",
+        "Room lighting"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A base/gate control signal mainly decides:",
+      "options": [
+        "Whether the device switches",
+        "Battery chemistry",
+        "Capacitor type",
+        "Resistor tolerance code"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-11-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 11, pull-up or pull-down resistors help keep signals:",
+      "options": [
+        "At defined logic states",
+        "Always analog",
+        "At maximum current",
+        "At random levels"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A floating input can lead to:",
+      "options": [
+        "Unstable readings",
+        "Permanent high quality",
+        "Zero noise always",
+        "Better grounding"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which is a simple way to stabilize an input pin?",
+      "options": [
+        "Use an appropriate pull resistor",
+        "Disconnect the ground",
+        "Use no reference voltage",
+        "Short all pins"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-12-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 12, grounding in circuits mainly provides:",
+      "options": [
+        "A common reference point",
+        "Extra battery power",
+        "Faster data download",
+        "Automatic cooling"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Poor ground connections may cause:",
+      "options": [
+        "Noise and unstable behavior",
+        "Guaranteed precision",
+        "Lower component cost",
+        "Perfect shielding"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "When debugging, checking ground continuity is:",
+      "options": [
+        "A key basic step",
+        "Never needed",
+        "Only for AC motors",
+        "Only for software errors"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-13-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 13, what does decoupling usually help reduce?",
+      "options": [
+        "Supply noise",
+        "Screen brightness",
+        "Battery label errors",
+        "Cable length"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A decoupling capacitor is commonly placed:",
+      "options": [
+        "Near IC power pins",
+        "Far from the board",
+        "Only in series with ground",
+        "Only on switches"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Without proper decoupling, digital circuits may show:",
+      "options": [
+        "Unexpected resets or glitches",
+        "Always lower current",
+        "Perfect signal edges",
+        "No dependence on supply"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-14-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 14, why are datasheets useful?",
+      "options": [
+        "They provide ratings and pin details",
+        "They replace measurements",
+        "They guarantee no mistakes",
+        "They remove need for wiring"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Before selecting a component, you should compare:",
+      "options": [
+        "Required specs vs datasheet limits",
+        "Only component color",
+        "Brand name only",
+        "Package shape only"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Using a part beyond its ratings can:",
+      "options": [
+        "Cause unreliable operation",
+        "Improve lifespan always",
+        "Lower all temperatures",
+        "Prevent failure forever"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-15-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 15, modular testing means:",
+      "options": [
+        "Verifying one block at a time",
+        "Powering full system blindly",
+        "Skipping intermediate checks",
+        "Replacing every component"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why test in small blocks first?",
+      "options": [
+        "Faults are easier to isolate",
+        "It removes need for tools",
+        "It guarantees zero errors",
+        "It doubles voltage"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "After each successful block test, next step is to:",
+      "options": [
+        "Integrate gradually",
+        "Restart from scratch",
+        "Ignore documentation",
+        "Skip final validation"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-16-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 16, signal tracing helps identify:",
+      "options": [
+        "Where expected behavior breaks",
+        "Only mechanical defects",
+        "Only battery age",
+        "Only software syntax"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A practical tracing approach is to move from:",
+      "options": [
+        "Input toward output stage",
+        "Output to random node",
+        "Ground to chassis color",
+        "Middle directly to supply"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "If input exists but output is missing, the issue is likely:",
+      "options": [
+        "In the intervening stage",
+        "Always in the battery",
+        "Always in the wire color",
+        "Outside the circuit"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-17-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 17, what improves long-term maintainability?",
+      "options": [
+        "Clear documentation of changes",
+        "No labeling",
+        "Random wire replacement",
+        "Removing test points"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Recording measured values during testing helps:",
+      "options": [
+        "Compare expected vs actual behavior",
+        "Increase supply voltage",
+        "Reduce all resistance",
+        "Replace multimeter usage"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A good lab note usually includes:",
+      "options": [
+        "Setup, readings, and observations",
+        "Only final score",
+        "Only component price",
+        "Only video timestamp"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-6-topic-18-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Context 18, final verification should confirm:",
+      "options": [
+        "Performance under expected conditions",
+        "Only board appearance",
+        "Only wire length",
+        "Only theoretical values"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Why repeat key tests after modifications?",
+      "options": [
+        "To ensure no new issue is introduced",
+        "To consume battery faster",
+        "To avoid measurements",
+        "To skip calibration"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A stable final build should show:",
+      "options": [
+        "Consistent results across trials",
+        "Randomly changing outputs",
+        "Only one-time success",
+        "No relation to input"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-1-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 1, what is the best way to begin a practical setup?",
+      "options": [
+        "Review circuit plan and connections",
+        "Skip all checks",
+        "Change components randomly",
+        "Power on immediately"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which approach improves success in electronics practice?",
+      "options": [
+        "Step-by-step verification",
+        "Guessing values",
+        "Avoiding measurements",
+        "Ignoring polarity"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A stable setup usually needs:",
+      "options": [
+        "Correct wiring and proper supply",
+        "Extra decorative wires",
+        "No ground reference",
+        "Only high voltage"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-2-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 2, a clean connection mainly helps:",
+      "options": [
+        "Reliable signal/current flow",
+        "Increase file size",
+        "Change battery type",
+        "Avoid all components"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Loose jumper wires can cause:",
+      "options": [
+        "Intermittent faults",
+        "Permanent accuracy",
+        "Automatic calibration",
+        "Lower resistance always"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "During debugging, check first:",
+      "options": [
+        "Power and physical connections",
+        "Logo color",
+        "Screen brightness",
+        "Wi-Fi speed"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-3-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 3, why is labeling useful?",
+      "options": [
+        "It speeds up troubleshooting",
+        "It increases voltage",
+        "It replaces test tools",
+        "It removes grounding"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Which method is safer in practical electronics?",
+      "options": [
+        "Test one block at a time",
+        "Modify everything together",
+        "Bypass protection",
+        "Ignore ratings"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A repeated verification process helps ensure:",
+      "options": [
+        "Consistency",
+        "Random output",
+        "Zero measurements",
+        "No documentation"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-4-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 4, multimeter voltage mode is used to check:",
+      "options": [
+        "Potential difference",
+        "Capacitance color",
+        "Wire brand",
+        "Video length"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "For voltage measurement, probes are typically connected:",
+      "options": [
+        "Across two points",
+        "In series with all loads",
+        "On disconnected board",
+        "At random nodes"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Unexpected voltage drop may indicate:",
+      "options": [
+        "Connection or load issue",
+        "Always normal behavior",
+        "Improved efficiency",
+        "No need to inspect"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-5-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 5, current is measured by placing meter:",
+      "options": [
+        "In series",
+        "In parallel with source",
+        "Only on ground",
+        "Without leads"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Selecting meter range before measurement helps:",
+      "options": [
+        "Protect instrument and improve reading",
+        "Increase noise",
+        "Disable continuity",
+        "Remove battery"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Higher-than-expected current can point to:",
+      "options": [
+        "Low resistance or short path",
+        "Open circuit only",
+        "No power",
+        "Perfect operation always"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-6-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 6, resistor value checking is important for:",
+      "options": [
+        "Controlling current",
+        "Changing polarity",
+        "Increasing capacitance",
+        "Reducing all power loss"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Using wrong resistor value can cause:",
+      "options": [
+        "Unexpected circuit behavior",
+        "Better accuracy always",
+        "No effect at all",
+        "Instant optimization"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A resistor primarily:",
+      "options": [
+        "Limits current flow",
+        "Stores magnetic field only",
+        "Creates DC from AC",
+        "Acts like a switch always"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-7-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 7, capacitor usage often supports:",
+      "options": [
+        "Filtering and temporary charge storage",
+        "Permanent power generation",
+        "Only mechanical movement",
+        "Wire insulation"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Electrolytic capacitor orientation should be:",
+      "options": [
+        "Checked carefully",
+        "Ignored",
+        "Reversed always",
+        "Removed from circuit"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Incorrect capacitor placement may lead to:",
+      "options": [
+        "Unstable performance",
+        "Automatic correction",
+        "Lower all voltages",
+        "No measurable impact"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-8-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 8, diode orientation determines:",
+      "options": [
+        "Preferred current direction",
+        "Component color",
+        "Power rating label",
+        "Board thickness"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A reverse-connected diode in a simple path can:",
+      "options": [
+        "Block expected conduction",
+        "Increase current always",
+        "Replace resistor",
+        "Raise frequency"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Diode markings help identify:",
+      "options": [
+        "Anode/cathode side",
+        "Battery chemistry",
+        "Cable length",
+        "Signal bandwidth"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-9-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 9, LED polarity matters because LEDs are:",
+      "options": [
+        "Directional",
+        "Purely resistive",
+        "Bidirectional always",
+        "Independent of current"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A series resistor with LED is used to:",
+      "options": [
+        "Limit current",
+        "Increase voltage",
+        "Remove brightness",
+        "Convert AC to DC"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "If LED is off, first check:",
+      "options": [
+        "Polarity and resistor",
+        "Web browser",
+        "Audio settings",
+        "Keyboard layout"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-10-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 10, transistor switching depends on:",
+      "options": [
+        "Control input at base/gate",
+        "Wire color",
+        "PCB shape",
+        "Capacitor brand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Choosing transistor requires checking:",
+      "options": [
+        "Voltage/current ratings",
+        "Sticker quality",
+        "Length of label",
+        "None of these"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Switching transistor is commonly used to:",
+      "options": [
+        "Control loads electronically",
+        "Store long-term charge",
+        "Measure resistance",
+        "Filter noise only"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-11-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 11, pull resistors prevent:",
+      "options": [
+        "Floating logic inputs",
+        "Current flow",
+        "Ground reference",
+        "Signal transmission"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Floating inputs may produce:",
+      "options": [
+        "Unpredictable behavior",
+        "Perfect stability",
+        "Noiseless output always",
+        "Lower voltage drop"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Pull-up and pull-down resistors set:",
+      "options": [
+        "Default logic level",
+        "Battery chemistry",
+        "Wire thickness",
+        "Capacitance range"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-12-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 12, proper grounding provides:",
+      "options": [
+        "Common electrical reference",
+        "Infinite current",
+        "No signal path",
+        "Battery replacement"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Weak ground paths can cause:",
+      "options": [
+        "Noise and instability",
+        "Higher precision",
+        "Zero variation",
+        "Auto repair"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Ground continuity check is:",
+      "options": [
+        "A basic troubleshooting step",
+        "Never needed",
+        "Only for motors",
+        "Only for coding"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-13-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 13, decoupling capacitors are used to:",
+      "options": [
+        "Reduce supply noise",
+        "Increase resistance",
+        "Block all signals",
+        "Replace regulators"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Decoupling caps are often placed:",
+      "options": [
+        "Close to IC power pins",
+        "Far from IC",
+        "Only on output connector",
+        "Only across LEDs"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Poor decoupling may result in:",
+      "options": [
+        "Glitches or resets",
+        "Permanent accuracy",
+        "Zero switching noise",
+        "No power use"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-14-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 14, datasheets help with:",
+      "options": [
+        "Pinout and limits",
+        "Routing internet",
+        "Auto-soldering",
+        "Board painting"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Before using a component, compare:",
+      "options": [
+        "Required specs and part ratings",
+        "Only package color",
+        "Only vendor logo",
+        "Only weight"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Operating beyond ratings can cause:",
+      "options": [
+        "Unreliable behavior or failure",
+        "Guaranteed gain",
+        "Lower heating always",
+        "No side effects"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-15-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 15, module-wise testing is useful because:",
+      "options": [
+        "Fault isolation becomes easier",
+        "It removes documentation",
+        "It avoids measurements",
+        "It increases complexity"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Best integration flow is:",
+      "options": [
+        "Test blocks, then combine gradually",
+        "Combine all untested blocks",
+        "Skip verification",
+        "Ignore intermediate outputs"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Block-level validation improves:",
+      "options": [
+        "Debug speed and confidence",
+        "Randomness",
+        "Hardware wear",
+        "Power waste"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-16-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 16, signal tracing helps locate:",
+      "options": [
+        "The stage where signal fails",
+        "Component color mismatch",
+        "Typing errors",
+        "Video artifacts"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A common tracing direction is:",
+      "options": [
+        "Input to output",
+        "Random nodes",
+        "Ground to battery first always",
+        "Output to source only"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "If signal disappears mid-chain, check:",
+      "options": [
+        "Components and wiring in that stage",
+        "Only enclosure",
+        "Only labels",
+        "Only fan speed"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-17-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 17, maintaining notes helps:",
+      "options": [
+        "Repeat and verify results",
+        "Increase voltage",
+        "Reduce safety",
+        "Remove references"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Recording measurements allows:",
+      "options": [
+        "Expected vs actual comparison",
+        "Skipping tests",
+        "Ignoring limits",
+        "No troubleshooting"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A practical report should include:",
+      "options": [
+        "Setup steps and observations",
+        "Only conclusion",
+        "Only filenames",
+        "Only timestamps"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-18-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 18, final check confirms:",
+      "options": [
+        "Target behavior under expected conditions",
+        "Only visual appearance",
+        "Only idle current",
+        "Only one output state"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Re-testing after edits is done to:",
+      "options": [
+        "Catch regressions",
+        "Increase uncertainty",
+        "Skip calibration",
+        "Avoid measurements"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "A reliable circuit should show:",
+      "options": [
+        "Repeatable results",
+        "Random output changes",
+        "No dependency on input",
+        "One-time success only"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-19-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 19, calibration is mainly used to:",
+      "options": [
+        "Improve measurement accuracy",
+        "Increase wire length",
+        "Reduce logic levels",
+        "Replace power supply"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A baseline reading helps by:",
+      "options": [
+        "Providing a reference point",
+        "Disabling sensors",
+        "Raising all thresholds",
+        "Skipping validation"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "When values drift unexpectedly, first action is to:",
+      "options": [
+        "Recheck setup and connections",
+        "Ignore the drift",
+        "Replace all modules",
+        "Increase supply randomly"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-20-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 20, integrating subsystems requires:",
+      "options": [
+        "Interface compatibility checks",
+        "No documentation",
+        "Unlimited voltage",
+        "Ignoring pin mappings"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "Before final power-on, validate:",
+      "options": [
+        "Pinout and polarity",
+        "Case color",
+        "Audio theme",
+        "Wallpaper"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Integration test failure is best handled by:",
+      "options": [
+        "Isolating and testing each interface",
+        "Skipping tests",
+        "Changing all parts at once",
+        "Power cycling repeatedly only"
+      ],
+      "correctOptionIndex": 0
+    }
+  ],
+  "electronics-day-7-topic-21-quiz-data": [
+    {
+      "id": "q1",
+      "question": "In Day 7 Context 21, final validation should include:",
+      "options": [
+        "Functional and stability checks",
+        "Only naming files",
+        "Only changing cables",
+        "Only opening the enclosure"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q2",
+      "question": "A handoff-ready project usually has:",
+      "options": [
+        "Clear notes, results, and known limits",
+        "No records",
+        "No test results",
+        "No setup details"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "question": "Consistent pass results across repeated runs indicate:",
+      "options": [
+        "Good reliability",
+        "Unstable operation",
+        "Incorrect methodology",
+        "No need for safety"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

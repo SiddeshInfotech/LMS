@@ -1,0 +1,105 @@
+{
+    "course":"AI",
+    "activities":[
+        {
+            "day": 1,
+            "topic": "Introduction to Augmented Reality and Real-World Integration",
+            "activity_title": "Reality + Imagination Challenge",
+            "home_activity": {
+              "activity_1": {
+                "title": "Choose a Real Object",
+                "steps": [
+                  "Look around your house and select one object.",
+                  "Observe the object carefully.",
+                  "Notice its shape, size, and purpose."
+                ],
+                "examples": [
+                  "Table",
+                  "Book",
+                  "Water bottle",
+                  "Chair",
+                  "School bag"
+                ]
+              },
+              "activity_2": {
+                "title": "Imagine a Digital Object on It",
+                "steps": [
+                  "Imagine a digital object appearing on the real object.",
+                  "Think creatively about what could appear.",
+                  "Write one or two sentences describing your imagination."
+                ],
+                "examples": [
+                  "A small dinosaur walking on your table",
+                  "A butterfly sitting on your notebook",
+                  "Planets rotating above your school bag",
+                  "A small robot standing on your bottle",
+                  "Example: A small dinosaur is walking on my study table."
+                ]
+              },
+              "activity_3": {
+                "title": "Draw Your AR Scene",
+                "steps": [
+                  "Draw the real object in your notebook.",
+                  "Add the imagined digital object.",
+                  "Combine both to create a complete scene.",
+                  "Understand this as a mix of real and digital elements."
+                ],
+                "examples": [
+                  "Table + dinosaur",
+                  "Book + butterfly",
+                  "Bag + robot",
+                  "Bottle + flying bird"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find places where AR could help in learning.",
+              "examples": [
+                "Book showing a 3D animal",
+                "Globe showing moving planets",
+                "Science diagram becoming a 3D model"
+              ]
+            },
+            "think_and_notice": [
+              "Which real object did you choose?",
+              "What digital object did you imagine on it?",
+              "How could AR make school lessons more exciting?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Creativity and imagination",
+              "Observation skills",
+              "Real-life application of technology"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand the concept of Augmented Reality",
+                "description": "Students recognize how digital objects can appear on real-world surfaces."
+              },
+              {
+                "id": 2,
+                "title": "Develop imagination and creative thinking",
+                "description": "Students imagine how technology can enhance real-world environments."
+              },
+              {
+                "id": 3,
+                "title": "Improve observation skills",
+                "description": "Students analyze real objects and visualize digital additions."
+              },
+              {
+                "id": 4,
+                "title": "Connect AR technology with education and daily life",
+                "description": "Students understand how AR can improve learning and visualization."
+              }
+            ],
+            "bonus_activity": [
+              "Look at a picture in a book or magazine.",
+              "Imagine the picture becoming alive in 3D.",
+              "Examples: animal moving, volcano erupting, car engine rotating",
+              "Think about how AR could bring images to life."
+            ]
+          }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "course":"Drone",
+    "activities":[
+        {
+            "day": 1,
+            "topic": "Introduction to Drones and Basic Flight Concepts",
+            "activity_title": "Observe the Sky",
+            "home_activity": {
+              "activity_1": {
+                "title": "Look at Flying Things Around You",
+                "steps": [
+                  "Go outside or stand near a window and observe the sky.",
+                  "Find three things that can fly.",
+                  "Write their names in your notebook.",
+                  "Observe how they move in the air."
+                ],
+                "examples": [
+                  "Birds",
+                  "Airplanes",
+                  "Insects like butterflies or bees",
+                  "Kites"
+                ]
+              },
+              "activity_2": {
+                "title": "Paper Helicopter Experiment",
+                "steps": [
+                  "Take a piece of paper and cut a strip.",
+                  "Make two small wings at the top like a propeller.",
+                  "Fold the bottom to add weight.",
+                  "Drop it from a small height.",
+                  "Observe how it spins and falls slowly."
+                ],
+                "examples": [
+                  "Simple paper helicopter model demonstrating spinning motion"
+                ]
+              },
+              "activity_3": {
+                "title": "Imagine a Drone Use in Your Village",
+                "steps": [
+                  "Think about a real-life problem in your village or area.",
+                  "Imagine how a drone could help solve it.",
+                  "Write one or two sentences explaining your idea."
+                ],
+                "examples": [
+                  "Checking crops in farms",
+                  "Finding lost animals",
+                  "Observing floods or fires",
+                  "Delivering medicine to remote places",
+                  "Example: A drone can fly over farms to check which crops need water."
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Ask someone if they have seen a drone in real life.",
+              "examples": [
+                "Wedding video shooting",
+                "Police monitoring events",
+                "Agriculture spraying"
+              ]
+            },
+            "think_and_notice": [
+              "Which flying object did you observe?",
+              "How do you think drones stay balanced in the air?",
+              "How can drones help people in villages?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Problem-solving thinking",
+              "Real-life technology awareness"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand basic flying concepts",
+                "description": "Students observe how flying objects move in the air."
+              },
+              {
+                "id": 2,
+                "title": "Develop observation and curiosity",
+                "description": "Students analyze movements of birds, kites, or insects."
+              },
+              {
+                "id": 3,
+                "title": "Connect drone technology with real-life problems",
+                "description": "Students imagine how drones can help in agriculture, safety, or delivery."
+              },
+              {
+                "id": 4,
+                "title": "Develop creativity and engineering thinking",
+                "description": "Students experiment with simple flying models and ideas."
+              }
+            ],
+            "bonus_activity": [
+              "Draw a simple drone design in your notebook.",
+              "Include four propellers, a body frame, and an optional camera.",
+              "Imagine what work your drone would do, such as farming, rescue, or delivery."
+            ]
+          },
+          {
+            "day": 2,
+            "topic": "Drone Structure, Balance, and Control Systems",
+            "activity_title": "Build and Control",
+            "home_activity": {
+              "activity_1": {
+                "title": "Create a Simple Drone Model",
+                "steps": [
+                  "Take cardboard or paper as the main body.",
+                  "Attach four pencils or sticks in a cross shape.",
+                  "Draw small circles at the ends to represent motors or propellers.",
+                  "Observe how the structure is balanced around the center."
+                ],
+                "examples": [
+                  "Cardboard with four sticks forming a cross structure",
+                  "Simple drone model showing four propeller positions"
+                ]
+              },
+              "activity_2": {
+                "title": "Balance Experiment",
+                "steps": [
+                  "Take a ruler or stick.",
+                  "Place your finger at the center point.",
+                  "Observe how it balances when weight is equal.",
+                  "Notice how it tilts when one side becomes heavier."
+                ],
+                "examples": [
+                  "Balanced ruler staying steady",
+                  "Tilted ruler when weight is uneven"
+                ]
+              },
+              "activity_3": {
+                "title": "Practice Control Movements",
+                "steps": [
+                  "Stand in an open space.",
+                  "Move your hand up to imagine the drone going up.",
+                  "Move your hand down to imagine the drone going down.",
+                  "Move your hand forward to imagine forward motion.",
+                  "Move your hand left or right to imagine direction change."
+                ],
+                "examples": [
+                  "Hand movement representing takeoff",
+                  "Hand movement representing landing",
+                  "Directional control using hand gestures"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find machines at home that use remote control or buttons.",
+              "examples": [
+                "TV remote",
+                "Toy car",
+                "Fan remote",
+                "AC remote"
+              ]
+            },
+            "think_and_notice": [
+              "Why does a drone need four motors instead of one?",
+              "What happens if one motor stops working?",
+              "Why is balance important for flying machines?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Engineering thinking",
+              "Observation and reasoning",
+              "Hands-on model building"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand drone structure",
+                "description": "Students recognize that drones are built from multiple components arranged in balance."
+              },
+              {
+                "id": 2,
+                "title": "Understand control systems",
+                "description": "Students learn how remote commands control drone movement."
+              },
+              {
+                "id": 3,
+                "title": "Develop basic engineering thinking",
+                "description": "Students build a simple model to understand structure and balance."
+              },
+              {
+                "id": 4,
+                "title": "Connect technology concepts with real-life machines",
+                "description": "Students observe how remote-controlled devices work in daily life."
+              }
+            ],
+            "bonus_activity": [
+              "Draw a simple drone control diagram in your notebook.",
+              "Label Up (Takeoff), Down (Landing), Left/Right movement, and Forward/Backward movement.",
+              "Think about how pilots control drones using joysticks."
+            ]
+          }
+    ]
+}

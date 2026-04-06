@@ -1,0 +1,1238 @@
+{
+  "baseTopics": {
+    "day1BaseTopics": [
+      {
+        "id": "electronics-day-1-topic-1",
+        "title": "1.1 Context: Introduction",
+        "videoVar": "@/assets/videos/common/Business_operations_future_platform_9791fe581b.mp4",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-2",
+        "title": "1.2 Context: What is Circuit",
+        "videoVar": "@/assets/videos/common/Business_operations_future_platform_9791fe581b.mp4",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-3",
+        "title": "1.3 Context: Where do electricity come from",
+        "videoVar": "@/assets/videos/common/Business_operations_future_platform_9791fe581b.mp4",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-4",
+        "title": "1.4 Context: How does electricity travel from nature to home",
+        "videoVar": "context4Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-5",
+        "title": "1.5 Context: Battery",
+        "videoVar": "context5Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-6",
+        "title": "1.6 Context: What is inside a battery",
+        "videoVar": "context6Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-7",
+        "title": "1.7 Context: Different Types of Battery",
+        "videoVar": "context7Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-8",
+        "title": "1.8 Context: Electronics around us",
+        "videoVar": "context8Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-9",
+        "title": "1.9 Context: Electricity means teamwork",
+        "videoVar": "context9Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "electronics-day-1-topic-10",
+        "title": "1.10 Context: Closing",
+        "videoVar": "context10Video",
+        "description": "Day 1 topic"
+      }
+    ],
+    "day2BaseTopics": [
+      {
+        "id": "electronics-day-2-topic-1",
+        "title": "2.1 Context",
+        "videoVar": "day2Context1Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-2",
+        "title": "2.2 Context: Part 1-What is a circuit",
+        "videoVar": "day2Context2Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-3",
+        "title": "2.3 Context: Part 2-Flow of Electricity",
+        "videoVar": "day2Context3Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-4",
+        "title": "2.4 Context: Part 3- What tools will you need",
+        "videoVar": "day2Context4Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-5",
+        "title": "2.5 Context: Part 4-What is LED",
+        "videoVar": "day2Context5Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-6",
+        "title": "2.6 Context: Building Our Circuit",
+        "videoVar": "day2Context6Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-7",
+        "title": "2.7 Context: Step 1- Building Our Circuit",
+        "videoVar": "day2Context7Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-8",
+        "title": "2.8 Context: Step 2- Building Our Circuit",
+        "videoVar": "day2Context8Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-9",
+        "title": "2.9 Context: Step 3-Building Our Circuit",
+        "videoVar": "day2Context9Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-10",
+        "title": "2.10 Context: Step 4-Building Our Circuit",
+        "videoVar": "day2Context10Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-11",
+        "title": "2.11 Context: What if the LED is not glowing",
+        "videoVar": "day2Context11Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-12",
+        "title": "2.12 Context: Part 6-Understanding What Just Happened",
+        "videoVar": "day2Context12Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-13",
+        "title": "2.13 Context: Part 7-Law of Current Flow",
+        "videoVar": "day2Context13Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-14",
+        "title": "2.14 Context: Part 8-Why we use LED\\",
+        "videoVar": "day2Context14Video",
+        "description": "Day 2 topic"
+      },
+      {
+        "id": "electronics-day-2-topic-15",
+        "title": "2.15 Context: Part 9- Let\\",
+        "videoVar": "day2Context15Video",
+        "description": "Day 2 topic"
+      }
+    ],
+    "day3BaseTopics": [
+      {
+        "id": "electronics-day-3-topic-1",
+        "title": "3.1 Content",
+        "videoVar": "day3Context1Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-2",
+        "title": "3.2 Context: What is breadboard",
+        "videoVar": "day3Context2Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-3",
+        "title": "3.3 Context: Why use a breadboard",
+        "videoVar": "day3Context3Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-4",
+        "title": "3.4 Context: Getting Breadboard from the Basics Electronic Kit",
+        "videoVar": "day3Context4Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-5",
+        "title": "3.5 Context: Closer Look at Breadboard",
+        "videoVar": "day3Context5Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-6",
+        "title": "3.6 Context: Rows and Columns in Breadboard",
+        "videoVar": "day3Context6Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-7",
+        "title": "3.7 Context: The Center Gap",
+        "videoVar": "day3Context7Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-8",
+        "title": "3.8 Context: Time to Touch and Feel Breadboard",
+        "videoVar": "day3Context8Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-9",
+        "title": "3.9 Context: Step 1-Placing the LED",
+        "videoVar": "day3Context9Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-10",
+        "title": "3.10 Context: Step 2- Placing Resistor or Dummy Wires",
+        "videoVar": "day3Context10Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-11",
+        "title": "3.11 Context: Step 3- Placing the Jumper Wires",
+        "videoVar": "day3Context11Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-12",
+        "title": "3.12 Context: Placing Dummy Components",
+        "videoVar": "day3Context12Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-13",
+        "title": "3.13 Context: Understanding Mapping",
+        "videoVar": "day3Context13Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-14",
+        "title": "3.14 Context: Why Context Matters",
+        "videoVar": "day3Context14Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-15",
+        "title": "3.15 Context: Content",
+        "videoVar": "day3Context15Video",
+        "description": "Day 3 topic"
+      },
+      {
+        "id": "electronics-day-3-topic-16",
+        "title": "3.16 Context: Closing Story",
+        "videoVar": "day3Context16Video",
+        "description": "Day 3 topic"
+      }
+    ],
+    "day4BaseTopics": [
+      {
+        "id": "electronics-day-4-topic-1",
+        "title": "4.1 Content",
+        "videoVar": "day4Context1Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-2",
+        "title": "4.2 Context: What is a Resistor",
+        "videoVar": "day4Context2Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-3",
+        "title": "4.3 Context: Step 1 Resistors",
+        "videoVar": "day4Context3Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-4",
+        "title": "4.4 Context: Step 2 Resistors",
+        "videoVar": "day4Context4Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-5",
+        "title": "4.5 Context: Step 3 Resistors",
+        "videoVar": "day4Context5Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-6",
+        "title": "4.6 Context: Step 4 Resistors",
+        "videoVar": "day4Context6Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-7",
+        "title": "4.7 Context: Step 5 Resistors",
+        "videoVar": "day4Context7Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-8",
+        "title": "4.8 Context: Step 6 Resistors",
+        "videoVar": "day4Context8Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-9",
+        "title": "4.9 Context: Content",
+        "videoVar": "day4Context9Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-10",
+        "title": "4.10 Context: Step 1 Capacitors",
+        "videoVar": "day4Context10Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-11",
+        "title": "4.11 Context: Step 2 Capacitors",
+        "videoVar": "day4Context11Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-12",
+        "title": "4.12 Context: Step 3 Capacitors",
+        "videoVar": "day4Context12Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-13",
+        "title": "4.13 Context: Step 4 Capacitors",
+        "videoVar": "day4Context13Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-14",
+        "title": "4.14 Context: Content",
+        "videoVar": "day4Context14Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-15",
+        "title": "4.15 Context: Content",
+        "videoVar": "day4Context15Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-16",
+        "title": "4.16 Context: Content",
+        "videoVar": "day4Context16Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-17",
+        "title": "4.17 Context: Content",
+        "videoVar": "day4Context17Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-18",
+        "title": "4.18 Context: Content",
+        "videoVar": "day4Context18Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-19",
+        "title": "4.19 Context: Content",
+        "videoVar": "day4Context19Video",
+        "description": "Day 4 topic"
+      },
+      {
+        "id": "electronics-day-4-topic-20",
+        "title": "4.20 Context: Closing Story",
+        "videoVar": "day4Context20Video",
+        "description": "Day 4 topic"
+      }
+    ],
+    "day5BaseTopics": [
+      {
+        "id": "electronics-day-5-topic-1",
+        "title": "5.1 Context 1",
+        "videoVar": "day5Context1Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-2",
+        "title": "5.2 Context 2",
+        "videoVar": "day5Context2Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-3",
+        "title": "5.3 Context 3",
+        "videoVar": "day5Context3Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-4",
+        "title": "5.4 Context 4",
+        "videoVar": "day5Context4Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-5",
+        "title": "5.5 Context 5",
+        "videoVar": "day5Context5Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-6",
+        "title": "5.6 Context 6: Practical 1 Match Resistor Color Chart & Confirm Using Table",
+        "videoVar": "day5Context6Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-7",
+        "title": "5.7 Context 7: Step 1",
+        "videoVar": "day5Context7Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-8",
+        "title": "5.8 Context 8: Step 2",
+        "videoVar": "day5Context8Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-9",
+        "title": "5.9 Context 9: Step 3",
+        "videoVar": "day5Context9Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-10",
+        "title": "5.10 Context 10: Step 4",
+        "videoVar": "day5Context10Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-11",
+        "title": "5.11 Context 10.1: Step 5",
+        "videoVar": "day5Context11Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-12",
+        "title": "5.12 Context 11",
+        "videoVar": "day5Context12Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-13",
+        "title": "5.13 Context 12",
+        "videoVar": "day5Context13Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-14",
+        "title": "5.14 Context 13",
+        "videoVar": "day5Context14Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-15",
+        "title": "5.15 Context 14",
+        "videoVar": "day5Context15Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-16",
+        "title": "5.16 Context 14.1",
+        "videoVar": "day5Context16Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-17",
+        "title": "5.17 Context 15",
+        "videoVar": "day5Context17Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-18",
+        "title": "5.18 Context 16",
+        "videoVar": "day5Context18Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-19",
+        "title": "5.19 Context 17",
+        "videoVar": "day5Context19Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-20",
+        "title": "5.20 Context 18",
+        "videoVar": "day5Context20Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-21",
+        "title": "5.21 Context 19",
+        "videoVar": "day5Context21Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-22",
+        "title": "5.22 Context 20",
+        "videoVar": "day5Context22Video",
+        "description": "Day 5 topic"
+      },
+      {
+        "id": "electronics-day-5-topic-23",
+        "title": "5.23 Context 21",
+        "videoVar": "day5Context23Video",
+        "description": "Day 5 topic"
+      }
+    ],
+    "day6BaseTopics": [
+      {
+        "id": "electronics-day-6-topic-1",
+        "title": "6.1 Context 1",
+        "videoVar": "day6Context1Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-2",
+        "title": "6.2 Context 2",
+        "videoVar": "day6Context2Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-3",
+        "title": "6.3 Context 3",
+        "videoVar": "day6Context3Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-4",
+        "title": "6.4 Context 4",
+        "videoVar": "day6Context4Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-5",
+        "title": "6.5 Context 5",
+        "videoVar": "day6Context5Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-6",
+        "title": "6.6 Context 6",
+        "videoVar": "day6Context6Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-7",
+        "title": "6.7 Context 7",
+        "videoVar": "day6Context7Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-8",
+        "title": "6.8 Context 8",
+        "videoVar": "day6Context8Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-9",
+        "title": "6.9 Context 9",
+        "videoVar": "day6Context9Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-10",
+        "title": "6.10 Context 10",
+        "videoVar": "day6Context10Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-11",
+        "title": "6.11 Context 11",
+        "videoVar": "day6Context11Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-12",
+        "title": "6.12 Context 12",
+        "videoVar": "day6Context12Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-13",
+        "title": "6.13 Context 13",
+        "videoVar": "day6Context13Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-14",
+        "title": "6.14 Context 14",
+        "videoVar": "day6Context14Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-15",
+        "title": "6.15 Context 15",
+        "videoVar": "day6Context15Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-16",
+        "title": "6.16 Context 16",
+        "videoVar": "day6Context16Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-17",
+        "title": "6.17 Context 17",
+        "videoVar": "day6Context17Video",
+        "description": "Day 6 topic"
+      },
+      {
+        "id": "electronics-day-6-topic-18",
+        "title": "6.18 Context 18",
+        "videoVar": "day6Context18Video",
+        "description": "Day 6 topic"
+      }
+    ],
+    "day7BaseTopics": [
+      {
+        "id": "electronics-day-7-topic-1",
+        "title": "7.1 Context 1",
+        "videoVar": "day7Context1Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-2",
+        "title": "7.2 Context 2",
+        "videoVar": "day7Context2Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-3",
+        "title": "7.3 Context 3",
+        "videoVar": "day7Context3Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-4",
+        "title": "7.4 Context 4",
+        "videoVar": "day7Context4Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-5",
+        "title": "7.5 Context 5",
+        "videoVar": "day7Context5Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-6",
+        "title": "7.6 Context 6",
+        "videoVar": "day7Context6Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-7",
+        "title": "7.7 Context 7",
+        "videoVar": "day7Context7Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-8",
+        "title": "7.8 Context 8",
+        "videoVar": "day7Context8Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-9",
+        "title": "7.9 Context 9",
+        "videoVar": "day7Context9Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-10",
+        "title": "7.10 Context 10",
+        "videoVar": "day7Context10Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-11",
+        "title": "7.11 Context 11",
+        "videoVar": "day7Context11Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-12",
+        "title": "7.12 Context 12",
+        "videoVar": "day7Context12Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-13",
+        "title": "7.13 Context 13",
+        "videoVar": "day7Context13Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-14",
+        "title": "7.14 Context 14",
+        "videoVar": "day7Context14Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-15",
+        "title": "7.15 Context 15",
+        "videoVar": "day7Context15Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-16",
+        "title": "7.16 Context 16",
+        "videoVar": "day7Context16Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-17",
+        "title": "7.17 Context 17",
+        "videoVar": "day7Context17Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-18",
+        "title": "7.18 Context 18",
+        "videoVar": "day7Context18Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-19",
+        "title": "7.19 Context 19",
+        "videoVar": "day7Context19Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-20",
+        "title": "7.20 Context 20",
+        "videoVar": "day7Context20Video",
+        "description": "Day 7 topic"
+      },
+      {
+        "id": "electronics-day-7-topic-21",
+        "title": "7.21 Context 21",
+        "videoVar": "day7Context21Video",
+        "description": "Day 7 topic"
+      }
+    ],
+    "day8BaseTopics": [
+      {
+        "id": "electronics-day-8-topic-1",
+        "title": "8.1 Context",
+        "videoVar": "day8Context1Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-2",
+        "title": "8.2 Context",
+        "videoVar": "day8Context2Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-3",
+        "title": "8.3 Context",
+        "videoVar": "day8Context3Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-4",
+        "title": "8.4 Context",
+        "videoVar": "day8Context4Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-5",
+        "title": "8.5 Context",
+        "videoVar": "day8Context5Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-6",
+        "title": "8.6 Context",
+        "videoVar": "day8Context6Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-7",
+        "title": "8.7 Context",
+        "videoVar": "day8Context7Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-8",
+        "title": "8.8 Context",
+        "videoVar": "day8Context8Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-9",
+        "title": "8.9 Context",
+        "videoVar": "day8Context9Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-10",
+        "title": "8.10 Context",
+        "videoVar": "day8Context10Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-11",
+        "title": "8.11 Context",
+        "videoVar": "day8Context11Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-12",
+        "title": "8.12 Context",
+        "videoVar": "day8Context12Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-13",
+        "title": "8.13 Context",
+        "videoVar": "day8Context13Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-14",
+        "title": "8.14 Context",
+        "videoVar": "day8Context14Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-15",
+        "title": "8.15 Context",
+        "videoVar": "day8Context15Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-16",
+        "title": "8.16 Context",
+        "videoVar": "day8Context16Video",
+        "description": "Day 8 topic"
+      },
+      {
+        "id": "electronics-day-8-topic-17",
+        "title": "8.17 Context",
+        "videoVar": "day8Context17Video",
+        "description": "Day 8 topic"
+      }
+    ],
+    "day9BaseTopics": [
+      {
+        "id": "electronics-day-9-topic-1",
+        "title": "9.1 Context",
+        "videoVar": "day9Context1Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-2",
+        "title": "9.2 Context",
+        "videoVar": "day9Context2Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-3",
+        "title": "9.3 Context",
+        "videoVar": "day9Context3Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-4",
+        "title": "9.4 Context",
+        "videoVar": "day9Context4Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-5",
+        "title": "9.5 Context",
+        "videoVar": "day9Context5Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-6",
+        "title": "9.6 Context",
+        "videoVar": "day9Context6Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-7",
+        "title": "9.7 Context",
+        "videoVar": "day9Context7Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-8",
+        "title": "9.8 Context",
+        "videoVar": "day9Context8Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-9",
+        "title": "9.9 Context",
+        "videoVar": "day9Context9Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-10",
+        "title": "9.10 Context",
+        "videoVar": "day9Context10Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-11",
+        "title": "9.11 Context",
+        "videoVar": "day9Context11Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-12",
+        "title": "9.12 Context",
+        "videoVar": "day9Context12Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-13",
+        "title": "9.13 Context",
+        "videoVar": "day9Context13Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-14",
+        "title": "9.14 Context",
+        "videoVar": "day9Context14Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-15",
+        "title": "9.15 Context",
+        "videoVar": "day9Context15Video",
+        "description": "Day 9 topic"
+      },
+      {
+        "id": "electronics-day-9-topic-16",
+        "title": "9.16 Context",
+        "videoVar": "day9Context16Video",
+        "description": "Day 9 topic"
+      }
+    ],
+    "roboticsDay1BaseTopics": [
+      {
+        "id": "robotics-day-1-topic-1",
+        "title": "1.1 Context",
+        "videoVar": "roboticsDay1Context1Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-2",
+        "title": "1.2 What is a Robot",
+        "videoVar": "roboticsDay1Context2Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-3",
+        "title": "1.3 Robots are inspired by Humans",
+        "videoVar": "roboticsDay1Context3Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-4",
+        "title": "1.4 Robots do human like work and examples",
+        "videoVar": "roboticsDay1Context4Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-5",
+        "title": "1.5 Robots are Everywhere",
+        "videoVar": "roboticsDay1Context5Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-6",
+        "title": "1.6 Main parts of Robot",
+        "videoVar": "roboticsDay1Context6Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-7",
+        "title": "1.7 Main parts of Robot - Sensors",
+        "videoVar": "roboticsDay1Context7Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-8",
+        "title": "1.8 Main parts of Robot - Controller",
+        "videoVar": "roboticsDay1Context8Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-9",
+        "title": "1.9 Main parts of Robot - Actuators",
+        "videoVar": "roboticsDay1Context9Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-10",
+        "title": "1.10 Robot Working Principle",
+        "videoVar": "roboticsDay1Context10Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-11",
+        "title": "1.11 Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context11Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-12",
+        "title": "1.12 Dangerous Work - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context12Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-13",
+        "title": "1.13 Heavy Work - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context13Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-14",
+        "title": "1.14 Repetative Work - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context14Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-15",
+        "title": "1.15 Accuracy and Precision - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context15Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-16",
+        "title": "1.16 Speed - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context16Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-17",
+        "title": "1.17 Robots help elderly - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context17Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-18",
+        "title": "1.18 Robots in Farming - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context18Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-19",
+        "title": "1.19 Robots at home - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context19Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-20",
+        "title": "1.20 Robots protect the enviroment - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context20Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-21",
+        "title": "1.21 Robots in Space - Real Life Applications of Robot",
+        "videoVar": "roboticsDay1Context21Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-22",
+        "title": "1.22 How robots improve Human Life",
+        "videoVar": "roboticsDay1Context22Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-23",
+        "title": "1.23 Future is Robotics",
+        "videoVar": "roboticsDay1Context23Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-24",
+        "title": "1.24 Types of Robots",
+        "videoVar": "roboticsDay1Context24Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-25",
+        "title": "1.25 Mobile Robots",
+        "videoVar": "roboticsDay1Context25Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-26",
+        "title": "1.26 Humanoid Robots",
+        "videoVar": "roboticsDay1Context26Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-27",
+        "title": "1.27 Robotics Arms",
+        "videoVar": "roboticsDay1Context27Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-28",
+        "title": "1.28 Industrial Robots",
+        "videoVar": "roboticsDay1Context28Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-29",
+        "title": "1.29 Agriculture Robots",
+        "videoVar": "roboticsDay1Context29Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-30",
+        "title": "1.30 Autonomous Robots",
+        "videoVar": "roboticsDay1Context30Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-31",
+        "title": "1.31 Entertainment Robots",
+        "videoVar": "roboticsDay1Context31Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-32",
+        "title": "1.32 Smart HomeRobots",
+        "videoVar": "roboticsDay1Context32Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-33",
+        "title": "1.33 Space Robots",
+        "videoVar": "roboticsDay1Context33Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-34",
+        "title": "1.34 Search and Rescue Robots",
+        "videoVar": "roboticsDay1Context34Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-35",
+        "title": "1.35 What we learned",
+        "videoVar": "roboticsDay1Context35Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-36",
+        "title": "1.36 Why today was special",
+        "videoVar": "roboticsDay1Context36Video",
+        "description": "Day 1 topic"
+      },
+      {
+        "id": "robotics-day-1-topic-37",
+        "title": "1.37 Final",
+        "videoVar": "roboticsDay1Context37Video",
+        "description": "Day 1 topic"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "electronics",
+      "title": "Electronics",
+      "icon": "⚡",
+      "daysGenerator": "generateElectronicsDays"
+    },
+    {
+      "id": "robotics",
+      "title": "Robotics",
+      "icon": "🤖",
+      "daysGenerator": "generateRoboticsDays"
+    },
+    {
+      "id": "drone",
+      "title": "Drone",
+      "icon": "🚁",
+      "daysGenerator": "generateDroneDays"
+    },
+    {
+      "id": "iot",
+      "title": "IoT (Internet of Things)",
+      "icon": "🌐",
+      "daysGenerator": "generateIotDays"
+    },
+    {
+      "id": "arvr",
+      "title": "AR (Augmented Reality)",
+      "icon": "🥽",
+      "daysGenerator": "generateArDays"
+    },
+    {
+      "id": "vr",
+      "title": "VR (Virtual Reality)",
+      "icon": "🥽",
+      "daysGenerator": "generateVrDays"
+    },
+    {
+      "id": "mr",
+      "title": "MR (Mixed Reality)",
+      "icon": "🧩",
+      "daysGenerator": "generateMrDays"
+    },
+    {
+      "id": "3d-printing",
+      "title": "3D Printing",
+      "icon": "🖨️",
+      "daysGenerator": "generate3dPrintingDays"
+    },
+    {
+      "id": "ai",
+      "title": "AI (Artificial Intelligence)",
+      "icon": "🧠",
+      "daysGenerator": "generateAiDays"
+    }
+  ]
+}

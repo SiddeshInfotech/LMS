@@ -1,0 +1,1331 @@
+{
+    "courses" : "IoT",
+    "activities":[
+        {
+            "day": 1,
+            "topic": "Introduction to IoT and Smart Systems",
+            "activity_title": "Smart Things Around Us",
+            "home_activity": {
+              "activity_1": {
+                "title": "Find Automatic Systems Around You",
+                "steps": [
+                  "Look around your house, school, farm, or village.",
+                  "Find three systems that work automatically or give signals.",
+                  "Observe what each system does."
+                ],
+                "examples": [
+                  "Water tank motor that stops when the tank fills",
+                  "Street lights that turn ON in the evening",
+                  "Mobile phone notifications",
+                  "Car reverse sensor sound",
+                  "Water level indicator"
+                ]
+              },
+              "activity_2": {
+                "title": "Observe the Three Steps",
+                "steps": [
+                  "Choose one automatic system.",
+                  "Identify what it detects (light, water level, movement, temperature).",
+                  "Understand what decision is made.",
+                  "Observe what action happens as a result."
+                ],
+                "examples": [
+                  "Street light: Detect → darkness, Decision → it is night, Action → light turns ON"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find two more automatic systems in your village or farm.",
+              "examples": [
+                "Irrigation pump starting when soil is dry",
+                "Water tank overflow alarm",
+                "Solar street lights turning ON at night"
+              ]
+            },
+            "think_and_notice": [
+              "Which automatic system did you observe?",
+              "What signal made the system start working?",
+              "How does this system help people in daily life?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Systems thinking",
+              "Real-life problem understanding"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Recognize smart systems in daily life",
+                "description": "Students identify devices that work automatically using sensors or signals."
+              },
+              {
+                "id": 2,
+                "title": "Understand the Sense–Think–Act process",
+                "description": "Students observe how systems detect information and perform actions."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and analytical skills",
+                "description": "Students analyze how technology solves everyday problems."
+              },
+              {
+                "id": 4,
+                "title": "Connect IoT concepts with real-world applications",
+                "description": "Students understand how connected devices improve efficiency and convenience."
+              }
+            ],
+            "bonus_activity": [
+              "Ask someone which machine or device in your village works automatically and saves time.",
+              "Examples include irrigation motor, solar street light, and water tank alarm.",
+              "Think about how these devices make daily work easier."
+    ]
+},
+{
+    "day": 2,
+    "topic": "Understanding Input–Processing–Output Systems",
+    "activity_title": "Brain and Body Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe a Human System",
+        "steps": [
+          "Ask a family member to clap their hands.",
+          "Listen carefully to the sound.",
+          "Raise your hand after hearing the clap.",
+          "Observe how your body responded to the sound."
+        ],
+        "examples": [
+          "Ear heard the sound",
+          "Brain understood it",
+          "Hand moved"
+        ]
+      },
+      "activity_2": {
+        "title": "Find Similar Systems Around You",
+        "steps": [
+          "Look around your home or village.",
+          "Find two machines where different parts work together.",
+          "Identify the input part (receives information).",
+          "Identify the thinking part (makes decisions).",
+          "Identify the action part (performs the work)."
+        ],
+        "examples": [
+          "Torch: Input → switch pressed, Decision → electricity flows, Action → light turns ON",
+          "Bicycle",
+          "Tractor",
+          "Water pump",
+          "Mobile phone"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Find three objects with buttons or switches.",
+      "examples": [
+        "Torch",
+        "Radio",
+        "Mobile phone",
+        "Electric motor switch"
+      ]
+    },
+    "think_and_notice": [
+      "What part of your body heard the clap sound?",
+      "What part decided to raise your hand?",
+      "What part actually moved?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Systems thinking",
+      "Real-life application of concepts"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand systems made of different parts",
+        "description": "Students observe that every system has components with different roles."
+      },
+      {
+        "id": 2,
+        "title": "Recognize input–processing–output concept",
+        "description": "Students relate body systems and machines to the IoT process."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how actions occur step by step."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-life systems",
+        "description": "Students understand how sensors, controllers, and devices work together."
+      }
+    ],
+    "bonus_activity": [
+      "Ask which machine in your house or farm has the most buttons or controls.",
+      "Examples include tractor controls, mobile phone, and TV remote.",
+      "Think about what each button controls."
+    ]
+},
+{
+   
+    "day": 3,
+    "topic": "Understanding Control Systems and Input–Output Actions",
+    "activity_title": "Press and Control Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Find a Button That Controls Something",
+        "steps": [
+          "Look around your house and find three devices that work when a button is pressed.",
+          "Press each button carefully.",
+          "Observe what happens after pressing it."
+        ],
+        "examples": [
+          "Doorbell button",
+          "Torch switch",
+          "Mobile phone power button",
+          "TV remote buttons",
+          "Radio buttons"
+        ]
+      },
+      "activity_2": {
+        "title": "Create Your Own Button System",
+        "steps": [
+          "Choose one person to act as the button.",
+          "Choose another person to act as the machine.",
+          "Say 'Press' to trigger an action.",
+          "Say 'Release' to stop the action.",
+          "Observe how one signal controls behavior."
+        ],
+        "examples": [
+          "Press → person claps",
+          "Release → clapping stops"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Find two machines where pressing something starts an action.",
+      "examples": [
+        "Water pump switch",
+        "Motorcycle start button",
+        "Mixer grinder switch",
+        "Tractor ignition key"
+      ]
+    },
+    "think_and_notice": [
+      "What happened when you pressed the button?",
+      "Did the machine start or stop after pressing it?",
+      "Why do machines use buttons or switches to control actions?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Logical thinking",
+      "Real-life application of concepts"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand input and output systems",
+        "description": "Students observe how pressing a button (input) causes an action (output)."
+      },
+      {
+        "id": 2,
+        "title": "Identify control mechanisms in daily life",
+        "description": "Students recognize how switches and buttons control machines."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze cause-and-effect relationships."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world devices",
+        "description": "Students relate simple controls to how electronic systems operate."
+      }
+    ],
+    "bonus_activity": [
+      "Find five buttons or switches in your house.",
+      "Examples include torch switch, fan switch, doorbell, TV remote, and mobile phone buttons.",
+      "Think about what action each button controls."
+    ]
+  },
+  {
+  
+    "day": 4,
+    "topic": "Understanding Alert Systems and Sound-Based Notifications",
+    "activity_title": "Sound Alert Explorer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Find Sound Alerts Around You",
+        "steps": [
+          "Look around your home, school, or village.",
+          "Find three things that make sound to give information or warning.",
+          "Listen carefully and observe when and why the sound is produced."
+        ],
+        "examples": [
+          "School bell",
+          "Mobile phone ringtone",
+          "Vehicle horn",
+          "Tractor horn",
+          "Alarm clock"
+        ]
+      },
+      "activity_2": {
+        "title": "Create Your Own Alert System",
+        "steps": [
+          "Choose one person to act as the button.",
+          "Choose another person to act as the alarm.",
+          "Say 'Start' to trigger a sound.",
+          "Say 'Stop' to stop the sound.",
+          "Observe how one signal controls an alert."
+        ],
+        "examples": [
+          "Start → person makes a beep or clap sound",
+          "Stop → sound stops"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Find two machines that give sound signals.",
+      "examples": [
+        "Motorcycle horn",
+        "Mobile phone notification",
+        "Pressure cooker whistle",
+        "School bell"
+      ]
+    },
+    "think_and_notice": [
+      "Which device produced the loudest sound?",
+      "Why do machines use sound alerts instead of only lights?",
+      "How does sound help people react quickly?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Real-life problem understanding",
+      "Logical thinking"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Recognize sound alert systems in daily life",
+        "description": "Students identify devices that use sound to communicate information."
+      },
+      {
+        "id": 2,
+        "title": "Understand warning and notification systems",
+        "description": "Students observe how sound signals help people notice important events."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and reasoning skills",
+        "description": "Students analyze when and why sound alerts are used."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students understand how IoT devices use sound alerts for safety and notifications."
+      }
+    ],
+    "bonus_activity": [
+      "Ask which machine uses sound to warn people.",
+      "Examples include pressure cooker whistle, vehicle horn, and school bell.",
+      "Think about why the sound must be loud enough for everyone to hear."
+    ]
+  },
+  {
+    
+    "day": 5,
+    "topic": "Understanding Distance Measurement and Sensors",
+    "activity_title": "Distance Detective Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Estimate Distance",
+        "steps": [
+          "Choose two objects around your house.",
+          "Stand near one object.",
+          "Estimate how far the second object is.",
+          "Walk the steps to check your estimate."
+        ],
+        "examples": [
+          "Tree and house",
+          "Wall and chair",
+          "Door and table",
+          "Example: Door to table is about 2 steps away"
+        ]
+      },
+      "activity_2": {
+        "title": "Measure Using Steps",
+        "steps": [
+          "Pick an object in your house or yard.",
+          "Stand at a distance from it.",
+          "Walk slowly towards it while counting your steps.",
+          "Observe how the distance reduces as you move closer."
+        ],
+        "examples": [
+          "Tree",
+          "Wall",
+          "Water tank",
+          "Bicycle"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Find machines or systems that show measurements or information.",
+      "examples": [
+        "Digital weighing machine",
+        "Tractor dashboard indicators",
+        "Mobile phone screen showing numbers",
+        "Digital clock"
+      ]
+    },
+    "think_and_notice": [
+      "Was your distance guess correct or different?",
+      "How did counting steps help you measure distance?",
+      "Why do machines sometimes need sensors to measure distance automatically?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Estimation and measurement skills",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand distance estimation",
+        "description": "Students observe how distance can be estimated and measured."
+      },
+      {
+        "id": 2,
+        "title": "Recognize sensing systems in technology",
+        "description": "Students understand how sensors help machines detect objects."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how distance changes with movement."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world systems",
+        "description": "Students relate sensor technology to everyday devices."
+      }
+    ],
+    "bonus_activity": [
+      "Stand at one point and identify objects that are near, medium, and far.",
+      "Examples: near → chair, medium → door, far → tree.",
+      "Think about how a machine or sensor could measure these distances automatically."
+    ]
+  },
+  {
+    
+    "day": 6,
+    "topic": "Understanding Environmental Sensing (Light and Temperature)",
+    "activity_title": "Environment Observer Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Light and Darkness Observation",
+        "steps": [
+          "Choose a place inside or outside your home.",
+          "Observe the brightness at two different times of the day.",
+          "Compare the light levels in the morning and evening.",
+          "Write down where it was brightest and darkest."
+        ],
+        "examples": [
+          "Near a window",
+          "Inside a room",
+          "Outside in the yard",
+          "Morning → bright, Evening → darker"
+        ]
+      },
+      "activity_2": {
+        "title": "Feel the Temperature",
+        "steps": [
+          "Place your hand in different locations.",
+          "Compare temperature in each place.",
+          "Identify which place feels hotter or cooler."
+        ],
+        "examples": [
+          "Inside the house",
+          "Outside in the sun",
+          "Near a wall or floor",
+          "Under a tree"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask about weather conditions during different times of the day.",
+      "examples": [
+        "When is the day hottest?",
+        "When does it become cooler?",
+        "When does the air feel humid or sticky?"
+      ]
+    },
+    "think_and_notice": [
+      "Which place had the most light?",
+      "Which place felt cooler or warmer?",
+      "Why do machines need sensors to measure light and temperature automatically?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Environmental awareness",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand environmental changes",
+        "description": "Students observe variations in light and temperature in their surroundings."
+      },
+      {
+        "id": 2,
+        "title": "Recognize the role of sensors in technology",
+        "description": "Students understand how sensors detect environmental conditions."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how environmental conditions change over time."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world systems",
+        "description": "Students relate sensors to smart devices like automatic lights and weather monitors."
+      }
+    ],
+    "bonus_activity": [
+      "Find systems that react to environmental changes.",
+      "Examples include street lights turning ON at night, solar lights charging in sunlight, and fans used when temperature increases.",
+      "Think about how sensors help these systems work automatically."
+    ]
+  },
+  {
+  
+    "day": 7,
+    "topic": "Remote Control and Time-Based Automation",
+    "activity_title": "Control From Distance Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Control Something From Far",
+        "steps": [
+          "Take help from a family member or friend.",
+          "Stand a few steps away from them.",
+          "Give a simple command like 'Start' to make them clap.",
+          "Give another command like 'Stop' to make them stop clapping.",
+          "Observe how your command from a distance controls their action."
+        ],
+        "examples": [
+          "Saying 'Start' to begin clapping",
+          "Saying 'Stop' to stop clapping"
+        ]
+      },
+      "activity_2": {
+        "title": "Observe Moving Machines",
+        "steps": [
+          "Look around your house or village.",
+          "Find at least two machines that create movement.",
+          "Observe which part of the machine rotates or moves.",
+          "Think about how movement helps the machine perform its function."
+        ],
+        "examples": [
+          "Ceiling fan blades rotating",
+          "Bicycle wheel moving",
+          "Water pump motor rotating",
+          "Tractor wheel rotating",
+          "Toy car wheels moving"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask someone at home about machines that work at a fixed time and observe how time controls their operation.",
+      "examples": [
+        "School bell ringing at a certain time",
+        "Mobile alarm clock ringing",
+        "Irrigation motor turning ON at a fixed hour"
+      ]
+    },
+    "think_and_notice": [
+      "What happened when you gave a command from far away?",
+      "Which machines around you create movement?",
+      "Why do some machines work at a fixed time?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Systems thinking",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand remote control systems",
+        "description": "Students observe how commands can control actions from a distance."
+      },
+      {
+        "id": 2,
+        "title": "Recognize machines that create movement",
+        "description": "Students identify rotating or moving parts in everyday machines."
+      },
+      {
+        "id": 3,
+        "title": "Understand time-based automation",
+        "description": "Students observe how machines can operate at scheduled times."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world systems",
+        "description": "Students relate remote control and automation concepts with daily technology."
+      }
+    ],
+    "bonus_activity": [
+      "Look around your house or village and find three things that can be controlled without touching them directly.",
+      "Examples include TV remote, mobile phone controlling music, and wireless speakers.",
+      "Think about how wireless technology allows devices to communicate."
+    ]
+  },
+  {
+   
+    "day": 8,
+    "topic": "Time-Based Systems, Non-Contact Sensing, and Information Display",
+    "activity_title": "Smart System Observer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Time-Based Activities",
+        "steps": [
+          "Look around your house or village.",
+          "Find at least two activities that happen at a fixed time every day.",
+          "Observe when these activities usually occur.",
+          "Write down the time for each activity.",
+          "Think about why these activities follow a fixed schedule."
+        ],
+        "examples": [
+          "School bell ringing at 10:00 AM",
+          "Temple bell at a certain time",
+          "Mobile alarm ringing",
+          "Irrigation motor starting at a fixed time"
+        ]
+      },
+      "activity_2": {
+        "title": "Detect Without Touching",
+        "steps": [
+          "Ask a family member to hold a small object like a stone or paper.",
+          "Stand a little distance away from the object.",
+          "Slowly bring your hand closer to the object without touching it.",
+          "Observe how you can sense the presence of the object before touching it.",
+          "Relate this observation to how sensors detect objects without contact."
+        ],
+        "examples": [
+          "Feeling the presence of an object before touching it",
+          "Noticing changes in space when your hand comes closer to an object"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Look around your house and find devices where information is displayed and observe how they present information clearly.",
+      "examples": [
+        "Digital clock on a mobile phone",
+        "TV screen displaying information",
+        "Radio display",
+        "Calculator screen"
+      ]
+    },
+    "think_and_notice": [
+      "Which activity in your village happens at the same time every day?",
+      "How do people know the correct time?",
+      "Why do machines sometimes need to detect objects without touching them?"
+    ],
+    "discussion_instruction": "Discuss your ideas with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Systems thinking",
+      "Real-life application of technology"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand time-based systems",
+        "description": "Students observe activities that occur at scheduled times."
+      },
+      {
+        "id": 2,
+        "title": "Recognize sensing without contact",
+        "description": "Students understand that sensors can detect objects without touching them."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how information is displayed and used in daily life."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world systems",
+        "description": "Students relate sensors, clocks, and displays to smart systems."
+      }
+    ],
+    "bonus_activity": [
+      "Look around your house and find three places where information is stored or recorded.",
+      "Examples include notebook, mobile phone memory, and calendar.",
+      "Think about why storing information is important for machines and people."
+    ]
+  },
+  {
+ 
+    "day": 9,
+    "topic": "Identification Systems and Controlled Movement",
+    "activity_title": "Smart Identification Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Access Systems",
+        "steps": [
+          "Look around your house, school, or village.",
+          "Find at least two places where permission is needed before entering or using something.",
+          "Observe how access is controlled in these places.",
+          "Notice how the system checks whether a person is allowed or not.",
+          "Think about why such systems are important for safety."
+        ],
+        "examples": [
+          "School gate requiring permission to enter",
+          "Locked room with a key",
+          "Cupboard with a lock",
+          "Bicycle lock system",
+          "Mobile phone protected by password"
+        ]
+      },
+      "activity_2": {
+        "title": "Controlled Movement",
+        "steps": [
+          "Take a door or gate in your house.",
+          "Open the door slowly.",
+          "Stop the door at different positions such as slightly open, half open, and fully open.",
+          "Observe how the door can move and stop at specific positions.",
+          "Relate this to how machines control movement precisely."
+        ],
+        "examples": [
+          "Door slightly open",
+          "Door half open",
+          "Door fully open"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask someone at home about places where identification is required and observe how systems recognize people quickly.",
+      "examples": [
+        "School ID cards used for identification",
+        "Bank ATM cards for access",
+        "Bus pass cards",
+        "Office ID cards"
+      ]
+    },
+    "think_and_notice": [
+      "Why do some places require identification before entry?",
+      "How do locks or keys protect important places?",
+      "Why do machines sometimes need precise movement?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Logical reasoning",
+      "Real-life application of technology"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand identification systems",
+        "description": "Students observe how access systems verify people or objects."
+      },
+      {
+        "id": 2,
+        "title": "Recognize controlled movement mechanisms",
+        "description": "Students observe how objects move and stop at specific positions."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and reasoning skills",
+        "description": "Students analyze how systems ensure safety and control."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world systems",
+        "description": "Students relate identification and controlled movement concepts to everyday security and automation systems."
+      }
+    ],
+    "bonus_activity": [
+      "Ask someone in your house where cards or IDs are used to identify people.",
+      "Examples include school ID cards, bank ATM cards, and SIM cards in mobile phones.",
+      "Think about how machines recognize these cards automatically."
+    ]
+  },{
+    "day": 10,
+    "topic": "Alert Systems and Space Detection",
+    "activity_title": "Safety Alert Explorer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Warning Signals",
+        "steps": [
+          "Look around your house or village.",
+          "Find at least three things that give a warning signal using light or sound.",
+          "Observe when these signals are used.",
+          "Think about why these warning signals are important.",
+          "Notice how people react when they hear or see these signals."
+        ],
+        "examples": [
+          "Vehicle horn used on the road",
+          "Bicycle bell",
+          "Mobile phone alarm",
+          "School bell ringing",
+          "Torch light used as a signal at night"
+        ]
+      },
+      "activity_2": {
+        "title": "Check Space Around Objects",
+        "steps": [
+          "Find a place near your house where objects are kept or parked.",
+          "Observe whether the space is empty or occupied.",
+          "Notice how objects are arranged to avoid collision.",
+          "Think about how people decide where to place objects safely.",
+          "Relate this observation to how machines detect space availability."
+        ],
+        "examples": [
+          "Bicycle parking area",
+          "Farm tools kept near a wall",
+          "Vehicles parked outside a house"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask someone at home about situations where warning sounds are important and observe how alerts help people react quickly.",
+      "examples": [
+        "Ambulance siren on the road",
+        "Tractor horn while moving",
+        "Alarm clock in the morning"
+      ]
+    },
+    "think_and_notice": [
+      "Why do vehicles use horns or sirens?",
+      "Why is it important to warn people quickly during emergencies?",
+      "How can machines help detect whether a space is empty or full?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Safety awareness",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand alert systems",
+        "description": "Students observe how lights and sounds are used to warn people."
+      },
+      {
+        "id": 2,
+        "title": "Recognize safety technologies",
+        "description": "Students identify systems designed to improve safety and awareness."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and reasoning skills",
+        "description": "Students analyze how machines help detect situations automatically."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students relate sensor-based alert systems to everyday technologies."
+      }
+    ],
+    "bonus_activity": [
+      "Stand near your house and observe the road for 10 minutes.",
+      "Identify three types of signals used by vehicles such as horn sound, indicator lights, and brake lights.",
+      "Think about how these signals help prevent accidents."
+    ]
+  },
+  {
+  
+    "day": 11,
+    "topic": "Smart Devices and Wireless Communication",
+    "activity_title": "Smart Devices Around Us",
+    "home_activity": {
+      "activity_1": {
+        "title": "Find Smart or Automatic Systems",
+        "steps": [
+          "Look around your house, school, or village.",
+          "Find at least three devices that work automatically or with technology.",
+          "Observe how these devices help people perform tasks easily.",
+          "Think about what makes these devices smart or automatic.",
+          "Notice how these devices reduce human effort."
+        ],
+        "examples": [
+          "Mobile phone",
+          "Solar street light",
+          "Automatic water pump switch",
+          "Television remote",
+          "Electric fan regulator"
+        ]
+      },
+      "activity_2": {
+        "title": "Observe Wireless Control",
+        "steps": [
+          "Find a device that can be controlled without touching it directly.",
+          "Use or observe how the device is controlled.",
+          "Notice how commands are sent from one device to another.",
+          "Observe how quickly the device responds to the command.",
+          "Relate this to wireless communication between devices."
+        ],
+        "examples": [
+          "TV remote controlling a television",
+          "Mobile phone controlling music",
+          "Wireless speaker",
+          "Remote-controlled toy"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask someone in your house which devices work using the internet or mobile phone and observe how these devices connect people and machines.",
+      "examples": [
+        "Smartphone",
+        "Smart TV",
+        "Internet router",
+        "CCTV camera"
+      ]
+    },
+    "think_and_notice": [
+      "Which device in your house works without many wires?",
+      "How does a remote control send commands to a device?",
+      "Why do modern machines use wireless communication?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Systems thinking",
+      "Real-life application of technology"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Recognize smart devices in daily life",
+        "description": "Students identify devices that use wireless communication."
+      },
+      {
+        "id": 2,
+        "title": "Understand the concept of controllers",
+        "description": "Students observe how machines follow commands from a control system."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how modern devices interact with each other."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world technology",
+        "description": "Students relate wireless control systems to smart devices."
+      }
+    ],
+    "bonus_activity": [
+      "Look around your house and identify three devices that use electricity and communication together.",
+      "Examples include mobile phone, television, and internet router.",
+      "Think about how these devices communicate with people or other machines."
+    ]
+  },
+  {
+     "day": 12,
+    "topic": "Motion Detection and Touchless Safety Systems",
+    "activity_title": "Smart Safety Observer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Movement Detection",
+        "steps": [
+          "Stand in one place in your house or yard.",
+          "Ask a family member to walk slowly in front of you.",
+          "Observe how you notice their movement immediately.",
+          "Think about how machines can detect movement using sensors.",
+          "Relate this observation to real-life places where movement detection is useful."
+        ],
+        "examples": [
+          "House entrance detecting movement",
+          "School gate monitoring entry",
+          "Shop entrance detecting customers"
+        ]
+      },
+      "activity_2": {
+        "title": "Touchless Signal Experiment",
+        "steps": [
+          "Stand near a door or entrance.",
+          "Slowly bring your hand closer to the door area without touching it.",
+          "Imagine a system where a doorbell rings automatically when someone comes near.",
+          "Think about how this system can be useful in different places.",
+          "Relate this to touchless technology used in smart systems."
+        ],
+        "examples": [
+          "Automatic doorbell near house entrance",
+          "Touchless systems in hospitals",
+          "Touchless entry systems in schools"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Look around your house or village and find situations where warning signals are useful and observe how alerts help people react quickly.",
+      "examples": [
+        "Tractor horn while reversing",
+        "Vehicle horn on the road",
+        "Whistle used to call people"
+      ]
+    },
+    "think_and_notice": [
+      "How do you notice when someone enters a room?",
+      "Why are touchless systems useful in public places?",
+      "Why do machines need warning signals when objects come too close?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Safety awareness",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand motion detection systems",
+        "description": "Students observe how movement can trigger alerts."
+      },
+      {
+        "id": 2,
+        "title": "Recognize touchless technology",
+        "description": "Students understand how systems can work without physical contact."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how machines detect objects and respond."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students relate sensor-based automation to security and safety systems."
+      }
+    ],
+    "bonus_activity": [
+      "Look around your house or village and identify three situations where machines could help improve safety.",
+      "Examples include automatic light near house entrance, alarm when animals enter farm, and warning system when vehicles come close.",
+      "Think about how sensors and controllers could help build these systems."
+    ]
+  },
+  {
+    "day": 13,
+    "topic": "Environmental Sensing and Safety Monitoring",
+    "activity_title": "Smart Environment Observer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Safety Signals",
+        "steps": [
+          "Look around your house or village.",
+          "Find at least two situations where warning signals are used for safety.",
+          "Observe how these warnings help people notice danger quickly.",
+          "Think about why warning signals are important in daily life.",
+          "Relate this to how machines can detect and warn about danger."
+        ],
+        "examples": [
+          "Smell of gas in the kitchen",
+          "Tractor horn on the road",
+          "Whistle used to warn people",
+          "Vehicle horn near a turn"
+        ]
+      },
+      "activity_2": {
+        "title": "Observe Temperature Around You",
+        "steps": [
+          "Stand in two different places such as inside the house and outside.",
+          "Feel the temperature in each place.",
+          "Observe which place feels cooler and which feels warmer.",
+          "Think about why temperature changes in different locations.",
+          "Relate this to how machines can measure temperature automatically."
+        ],
+        "examples": [
+          "Inside the house feels cooler",
+          "Outside in sunlight feels warmer",
+          "Under a tree feels cooler"
+        ]
+      },
+      "activity_3": {
+        "title": "Observe Soil and Water in Plants",
+        "steps": [
+          "Find a plant near your house or farm.",
+          "Touch the soil carefully.",
+          "Observe whether the soil is dry or wet.",
+          "Ask someone when the plant should be watered.",
+          "Think about how machines could help in watering plants automatically."
+        ],
+        "examples": [
+          "Dry soil needing water",
+          "Wet soil not needing water"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Look around your village or farm and find situations where sensors could help farmers and think about how technology can improve decision-making.",
+      "examples": [
+        "Checking soil moisture before watering",
+        "Detecting smoke or fire in fields",
+        "Measuring temperature in a greenhouse"
+      ]
+    },
+    "think_and_notice": [
+      "How do people know when gas is leaking or something is burning?",
+      "Why is it important to monitor temperature in houses or farms?",
+      "How can farmers know when plants need water?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Environmental awareness",
+      "Real-life problem solving"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand environmental sensing",
+        "description": "Students observe how conditions like temperature and soil moisture change in the environment."
+      },
+      {
+        "id": 2,
+        "title": "Recognize safety monitoring systems",
+        "description": "Students understand how systems can detect dangerous situations like gas leaks."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze environmental conditions and their effects."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students relate sensors and automation to agriculture and safety systems."
+      }
+    ],
+    "bonus_activity": [
+      "Ask someone in your house or farm how farmers know when crops need water.",
+      "Possible answers include observing soil dryness, checking plant leaves, and observing weather.",
+      "Think about how a sensor system could automatically tell farmers when to water crops."
+    ]
+  },
+  {
+    "day": 14,
+    "topic": "Response Systems and Security Automation",
+    "activity_title": "Smart Response Challenge",
+    "home_activity": {
+      "activity_1": {
+        "title": "Test Your Reaction Time",
+        "steps": [
+          "Ask a family member or friend to hold a small object like a coin or stone.",
+          "Ask them to drop the object suddenly.",
+          "Try to catch the object as quickly as possible.",
+          "Repeat this activity three times.",
+          "Observe how quickly you react to an unexpected event."
+        ],
+        "examples": [
+          "Catching a falling coin",
+          "Catching a dropped stone quickly"
+        ]
+      },
+      "activity_2": {
+        "title": "Observe Automatic Lights",
+        "steps": [
+          "Look around your house or village.",
+          "Find places where lights are turned ON only when needed.",
+          "Observe when these lights are used.",
+          "Think about how these lights could work automatically.",
+          "Relate this to how sensors can control lights based on conditions."
+        ],
+        "examples": [
+          "Light near the house entrance",
+          "Street light turning ON at night",
+          "Torch used when it becomes dark"
+        ]
+      },
+      "activity_3": {
+        "title": "Observe Security Signals",
+        "steps": [
+          "Look around your home or village.",
+          "Find at least two systems that help protect people or property.",
+          "Observe how these systems warn people or provide security.",
+          "Think about why these systems are important.",
+          "Relate this to how machines can provide automated security."
+        ],
+        "examples": [
+          "Door lock system",
+          "Whistle used for alert",
+          "Dog barking when someone comes near",
+          "Gate closed at night"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Ask someone how they know when someone comes near the house at night and think about how sensors could detect movement automatically.",
+      "examples": [
+        "Dog barking",
+        "Doorbell ringing",
+        "Someone knocking on the door",
+        "Sound of footsteps"
+      ]
+    },
+    "think_and_notice": [
+      "How quickly were you able to react to the falling object?",
+      "Why are automatic lights useful at night?",
+      "Why are security systems important for homes and villages?"
+    ],
+    "discussion_instruction": "Discuss your observations with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Logical reasoning",
+      "Real-life problem understanding"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand reaction and response systems",
+        "description": "Students observe how humans react to signals and events."
+      },
+      {
+        "id": 2,
+        "title": "Recognize automation in daily life",
+        "description": "Students identify systems that automatically perform actions."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how systems detect events and respond."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students relate sensors and controllers to security and automation systems."
+      }
+    ],
+    "bonus_activity": [
+      "Look around your house or village and identify three situations where a smart security system could help.",
+      "Examples include automatic light near house entrance, alarm when someone enters a farm, and security alert for shop or storage room.",
+      "Think about how sensors and controllers could make these systems work automatically."
+    ]
+  },
+  {
+
+    "day": 15,
+    "topic": "Touch-Free Automation and Multi-Sensor Safety Systems",
+    "activity_title": "Smart Safety and Hygiene Observer",
+    "home_activity": {
+      "activity_1": {
+        "title": "Observe Touch-Free Actions",
+        "steps": [
+          "Look around your home or school.",
+          "Find at least two situations where people avoid touching objects directly.",
+          "Observe how people perform these actions safely.",
+          "Think about why avoiding touch is important in some situations.",
+          "Relate this to how machines can provide touch-free solutions."
+        ],
+        "examples": [
+          "Washing hands using a tap",
+          "Using a cloth or stick to open a gate",
+          "Using sanitizer before eating"
+        ]
+      },
+      "activity_2": {
+        "title": "Observe Safety Signals",
+        "steps": [
+          "Look around your house or village.",
+          "Identify situations where warning signals indicate danger.",
+          "Observe how people react to these signals.",
+          "Think about why quick response to these signals is important.",
+          "Relate this to how machines can detect and alert people."
+        ],
+        "examples": [
+          "Smell of gas in the kitchen",
+          "Horn of a tractor or vehicle",
+          "Whistle used to warn people",
+          "Smoke from fire"
+        ]
+      },
+      "activity_3": {
+        "title": "Observe Multiple Signs of Danger",
+        "steps": [
+          "Think of a situation where more than one sign indicates danger.",
+          "Observe how different signals appear together.",
+          "Notice how multiple signals help identify danger faster.",
+          "Think about how combining signals improves safety.",
+          "Relate this to how multiple sensors work together in smart systems."
+        ],
+        "examples": [
+          "Smell of gas and sound of leakage",
+          "Smoke and heat from fire"
+        ]
+      }
+    },
+    "extra_exploration": {
+      "task": "Look around your house or farm and identify places where sensors could improve safety or convenience.",
+      "examples": [
+        "Automatic light near house entrance",
+        "Gas leak alert near kitchen",
+        "Motion alarm near storage room",
+        "Sensor system for farm animals entering fields"
+      ]
+    },
+    "think_and_notice": [
+      "Why are touch-free systems useful in public places?",
+      "Why is it important to detect gas leaks or unusual movement quickly?",
+      "How can multiple sensors improve safety systems?"
+    ],
+    "discussion_instruction": "Discuss your ideas with your parents or elders.",
+    "nep_skills_developed": [
+      "Experiential learning",
+      "Observation and inquiry",
+      "Safety awareness",
+      "Real-life problem solving"
+    ],
+    "learning_outcomes": [
+      {
+        "id": 1,
+        "title": "Understand touch-free automation systems",
+        "description": "Students observe how machines can operate without direct contact."
+      },
+      {
+        "id": 2,
+        "title": "Recognize safety monitoring systems",
+        "description": "Students identify situations where alerts are important for preventing accidents."
+      },
+      {
+        "id": 3,
+        "title": "Develop observation and analytical skills",
+        "description": "Students analyze how different signals indicate potential danger."
+      },
+      {
+        "id": 4,
+        "title": "Connect IoT concepts with real-world applications",
+        "description": "Students relate sensor-based systems to hygiene and safety technologies."
+      }
+    ],
+    "bonus_activity": [
+      "Ask someone in your house what signs indicate that something is wrong or dangerous at home.",
+      "Examples include smell of gas, smoke from fire, and unusual sounds from machines.",
+      "Think about how a smart IoT system could detect these problems automatically."
+    ]
+  }
+
+    
+    ]
+}

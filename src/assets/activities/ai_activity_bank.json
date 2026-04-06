@@ -1,0 +1,846 @@
+{
+  "course":"AI",
+  "activities":[
+    {
+        "day": 1,
+        "topic": "Introduction to Artificial Intelligence and Smart Systems",
+        "activity_title": "AI Around Me",
+        "home_activity": {
+          "activity_1": {
+            "title": "Find Smart Technology Around You",
+            "steps": [
+              "Look around your house or village.",
+              "Identify three devices that behave in a smart way.",
+              "Observe how these devices help people perform tasks easily.",
+              "Think about how they assist in decision-making."
+            ],
+            "examples": [
+              "Smartphone",
+              "Television",
+              "ATM machine",
+              "Mobile camera",
+              "Tractor with digital display"
+            ]
+          },
+          "activity_2": {
+            "title": "Notice Smart Suggestions",
+            "steps": [
+              "Use a mobile phone, TV, or video platform.",
+              "Observe the suggestions shown after watching content.",
+              "Notice how similar videos or songs are recommended.",
+              "Think about how the device learns your preferences."
+            ]
+          },
+          "activity_3": {
+            "title": "Pattern Finding Game",
+            "steps": [
+              "Ask a family member to show five similar objects.",
+              "Observe the objects carefully.",
+              "Identify patterns such as color, shape, and size.",
+              "Relate this to how AI learns from patterns."
+            ],
+            "examples": [
+              "Different types of leaves",
+              "Different types of fruits",
+              "Different types of cups"
+            ]
+          }
+        },
+        "extra_exploration": {
+          "task": "Ask where machines are becoming smarter.",
+          "examples": [
+            "Farming machines",
+            "Mobile phones",
+            "Traffic signals",
+            "Vehicles or tractors"
+          ]
+        },
+        "think_and_notice": [
+          "Which device in your house seems the smartest?",
+          "How do you think machines learn what people like?",
+          "Why should we use technology responsibly and carefully?"
+        ],
+        "discussion_instruction": "Discuss your ideas with your parents or elders.",
+        "nep_skills_developed": [
+          "Experiential learning",
+          "Observation and inquiry",
+          "Critical thinking",
+          "Real-life connection with technology"
+        ],
+        "learning_outcomes": [
+          {
+            "id": 1,
+            "title": "Recognize AI in everyday life",
+            "description": "Students identify smart technologies used in daily activities."
+          },
+          {
+            "id": 2,
+            "title": "Understand the concept of pattern recognition",
+            "description": "Students observe how similarities and patterns help in learning."
+          },
+          {
+            "id": 3,
+            "title": "Develop curiosity about emerging technologies",
+            "description": "Students begin asking questions about intelligent systems."
+          },
+          {
+            "id": 4,
+            "title": "Connect technology with real-life applications",
+            "description": "Students relate AI concepts to devices used in their environment."
+          }
+        ],
+        "bonus_activity": [
+          "Think about one problem around your house that technology could solve.",
+          "Examples: automatic lights, farming reminders, weather alerts",
+          "Imagine how AI could help create such solutions."
+        ]
+      },
+    {
+        "day": 2,
+        "topic": "Prompting and Clear Instructions in AI",
+        "activity_title": "Clear Instructions Challenge",
+        "home_activity": {
+          "activity_1": {
+            "title": "Give Instructions to a Family Member",
+            "steps": [
+              "Ask a family member or friend to draw something.",
+              "First give unclear instructions and observe the result.",
+              "Then give clear and detailed instructions.",
+              "Compare both results and observe the difference."
+            ],
+            "examples": [
+              "Unclear: Draw something.",
+              "Clear: Draw a small house with two windows and a tree next to it."
+            ]
+          },
+          "activity_2": {
+            "title": "Describe an Object Clearly",
+            "steps": [
+              "Choose an object in your house.",
+              "Describe the object without showing it.",
+              "Include details like color, shape, size, and use.",
+              "Ask someone to guess the object."
+            ],
+            "examples": [
+              "Cup",
+              "Bicycle",
+              "Fruit",
+              "Shoe"
+            ]
+          },
+          "activity_3": {
+            "title": "Follow Clear vs Unclear Directions",
+            "steps": [
+              "Ask someone to give you directions to find an object.",
+              "Follow unclear directions first.",
+              "Then follow clear directions.",
+              "Compare how easy or difficult each was."
+            ],
+            "examples": [
+              "Unclear: Look somewhere in the room.",
+              "Clear: Look on the table near the window."
+            ]
+          }
+        },
+        "extra_exploration": {
+          "task": "Find situations where clear instructions are important.",
+          "examples": [
+            "Cooking recipe",
+            "School homework instructions",
+            "Assembling a toy or tool"
+          ]
+        },
+        "think_and_notice": [
+          "What happened when the instructions were unclear?",
+          "How did the result change when the instructions were detailed?",
+          "Why do machines like AI need clear prompts?"
+        ],
+        "discussion_instruction": "Discuss your observations with your parents or elders.",
+        "nep_skills_developed": [
+          "Experiential learning",
+          "Communication skills",
+          "Logical thinking",
+          "Problem-solving skills"
+        ],
+        "learning_outcomes": [
+          {
+            "id": 1,
+            "title": "Understand the importance of clear instructions",
+            "description": "Students observe how clarity improves task outcomes."
+          },
+          {
+            "id": 2,
+            "title": "Recognize the role of prompts in AI",
+            "description": "Students understand that AI depends on human instructions."
+          },
+          {
+            "id": 3,
+            "title": "Develop communication and reasoning skills",
+            "description": "Students practice describing objects and instructions clearly."
+          },
+          {
+            "id": 4,
+            "title": "Connect AI concepts with real-life communication",
+            "description": "Students relate prompt design with everyday instructions."
+          }
+        ],
+        "bonus_activity": [
+          "Ask a simple question to an AI tool or search engine.",
+          "Example: Tell me about animals.",
+          "Then ask a more detailed question: Explain how lions hunt in simple words for children.",
+          "Observe how better questions give better answers."
+        ]
+      },
+        {
+            "day": 3,
+            "topic": "Creativity, Imagination, and Descriptive Prompting in AI",
+            "activity_title": "Imagine and Describe",
+            "home_activity": {
+              "activity_1": {
+                "title": "Imagine a Creative Object",
+                "steps": [
+                  "Think of one unusual or funny object by combining two different things.",
+                  "Describe your idea in one or two clear sentences."
+                ],
+                "examples": [
+                  "Flying bicycle",
+                  "Robot farmer",
+                  "Elephant driving a tractor",
+                  "Dog wearing superhero costume"
+                ]
+              },
+              "activity_2": {
+                "title": "Draw Your Idea",
+                "steps": [
+                  "Draw the imagined object in your notebook.",
+                  "Add details such as colors, background, and actions.",
+                  "Focus on expressing your idea rather than making a perfect drawing."
+                ]
+              },
+              "activity_3": {
+                "title": "Describe Your Drawing",
+                "steps": [
+                  "Show your drawing to a family member.",
+                  "Describe what the object is, where it is, and what it is doing.",
+                  "Check if they understand your idea clearly."
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find one real object that could be improved using imagination.",
+              "examples": [
+                "Bicycle with solar lights",
+                "School bag with built-in umbrella",
+                "Water bottle that reminds you to drink water"
+              ]
+            },
+            "think_and_notice": [
+              "Was it easier to imagine or draw your idea?",
+              "Did your family member understand your idea when you described it clearly?",
+              "Why does AI need clear descriptions to generate images?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Creativity and imagination",
+              "Communication skills",
+              "Design thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Develop creative thinking",
+                "description": "Students imagine new objects by combining ideas."
+              },
+              {
+                "id": 2,
+                "title": "Understand the role of descriptive prompts",
+                "description": "Students learn that clear descriptions lead to better results."
+              },
+              {
+                "id": 3,
+                "title": "Improve visual communication skills",
+                "description": "Students express ideas through drawings and explanations."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI creativity with human imagination",
+                "description": "Students understand that AI tools create images based on human prompts."
+              }
+            ],
+            "bonus_activity": [
+              "Ask a family member what they would design using AI.",
+              "Examples: smart farming machines, creative buildings, new types of vehicles",
+              "Think about how AI tools could help visualize such ideas."
+            ]
+          },
+          {
+            "day": 4,
+            "topic": "Pattern Recognition and Visual Understanding in AI",
+            "activity_title": "Draw and Recognize",
+            "home_activity": {
+              "activity_1": {
+                "title": "Quick Drawing Challenge",
+                "steps": [
+                  "Ask a family member or friend to give you an object name.",
+                  "Draw the object within 20 seconds.",
+                  "Repeat this activity three times with different objects.",
+                  "Observe how quickly you can recognize and draw common shapes."
+                ],
+                "examples": [
+                  "House",
+                  "Tree",
+                  "Bicycle",
+                  "Fish",
+                  "Sun"
+                ]
+              },
+              "activity_2": {
+                "title": "Guess the Drawing",
+                "steps": [
+                  "Ask a family member to draw something in your notebook.",
+                  "Try to guess what they are drawing before they finish.",
+                  "Observe how quickly you can recognize the drawing."
+                ],
+                "examples": [
+                  "Fruit",
+                  "Animal",
+                  "Vehicle"
+                ]
+              },
+              "activity_3": {
+                "title": "Make Your Drawing Alive",
+                "steps": [
+                  "Draw a simple character.",
+                  "Imagine how the character would move.",
+                  "Think about actions like walking, jumping, or dancing.",
+                  "Relate this to how AI can convert drawings into animations."
+                ],
+                "examples": [
+                  "Stick person",
+                  "Cartoon animal",
+                  "Funny robot"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find three objects that can be represented using simple shapes.",
+              "examples": [
+                "Clock → circle",
+                "Book → rectangle",
+                "Ball → circle"
+              ]
+            },
+            "think_and_notice": [
+              "Was it easy to guess the drawing quickly?",
+              "Which objects were harder to recognize from drawings?",
+              "Why does AI need many examples to recognize drawings correctly?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Creativity and imagination",
+              "Pattern recognition",
+              "Visual thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand pattern recognition",
+                "description": "Students observe how shapes help identify objects."
+              },
+              {
+                "id": 2,
+                "title": "Develop visual and creative thinking",
+                "description": "Students create drawings and imagine movement or actions."
+              },
+              {
+                "id": 3,
+                "title": "Improve observation and communication skills",
+                "description": "Students practice guessing and explaining drawings."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI concepts with real-life activities",
+                "description": "Students understand how AI recognizes images and patterns."
+              }
+            ],
+            "bonus_activity": [
+              "Draw three simple emojis in your notebook.",
+              "Examples: happy face, sad face, surprised face",
+              "Ask someone to guess the emotion and think about how AI recognizes emotions from images."
+            ]
+          },
+          {
+            "day": 5,
+            "topic": "Creative Expression and AI-Generated Music",
+            "activity_title": "Create Your Own Song",
+            "home_activity": {
+              "activity_1": {
+                "title": "Create a Simple Song",
+                "steps": [
+                  "Think of a small topic and create a 4–5 line song.",
+                  "Write your song in Marathi, Hindi, or English.",
+                  "Focus on expressing your idea clearly."
+                ],
+                "examples": [
+                  "Friendship",
+                  "School",
+                  "Birthday",
+                  "Rain",
+                  "Example: My school is bright and fun, We learn and play in the sun."
+                ]
+              },
+              "activity_2": {
+                "title": "Add Rhythm",
+                "steps": [
+                  "Sing your song with a rhythm.",
+                  "Clap your hands or tap the table while singing.",
+                  "Observe how rhythm makes the song more engaging."
+                ]
+              },
+              "activity_3": {
+                "title": "Imagine an Album Cover",
+                "steps": [
+                  "Draw a picture that represents your song.",
+                  "Use symbols or scenes related to your topic.",
+                  "Relate this to how AI tools generate images from ideas."
+                ],
+                "examples": [
+                  "Birthday cake for a birthday song",
+                  "School building for a school song",
+                  "Clouds and rain for a rain song"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Listen to a song at home and identify its theme and type.",
+              "examples": [
+                "Identify what the song is about",
+                "Recognize the type of music (happy, calm, fast)"
+              ]
+            },
+            "think_and_notice": [
+              "Was it easy or difficult to write your own song?",
+              "How did rhythm or clapping change the song?",
+              "How could AI help people create music quickly?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Creativity and imagination",
+              "Communication and expression",
+              "Artistic thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Develop creative expression",
+                "description": "Students create songs using their own ideas."
+              },
+              {
+                "id": 2,
+                "title": "Understand the connection between words and music",
+                "description": "Students observe how rhythm and lyrics form a song."
+              },
+              {
+                "id": 3,
+                "title": "Improve artistic imagination",
+                "description": "Students visualize music through drawings."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI tools with human creativity",
+                "description": "Students understand how AI can generate music and art from prompts."
+              }
+            ],
+            "bonus_activity": [
+              "Ask a family member what kind of song they would create using AI.",
+              "Examples: farming life, village festivals, friendship",
+              "Think about how AI music tools could generate such songs automatically."
+            ]
+          },
+          {
+            "day": 6,
+            "topic": "Voice Recognition and Sound Processing in AI",
+            "activity_title": "Voice and Sound Explorer",
+            "home_activity": {
+              "activity_1": {
+                "title": "Speak and Write",
+                "steps": [
+                  "Ask a family member to say three short sentences aloud.",
+                  "Listen carefully to each sentence.",
+                  "Write the sentences in your notebook.",
+                  "Observe how spoken words become written information."
+                ],
+                "examples": [
+                  "The sun rises in the east.",
+                  "I like to play cricket.",
+                  "Water is important for life."
+                ]
+              },
+              "activity_2": {
+                "title": "Change Your Voice",
+                "steps": [
+                  "Speak the same sentence in different ways.",
+                  "Try a happy voice, a serious voice, and a funny voice.",
+                  "Notice how tone and pitch change the sound."
+                ],
+                "examples": [
+                  "My name is ______ spoken in different tones"
+                ]
+              },
+              "activity_3": {
+                "title": "Identify Sounds Around You",
+                "steps": [
+                  "Sit quietly for 2–3 minutes.",
+                  "Listen carefully to your surroundings.",
+                  "Write down five different sounds you hear.",
+                  "Observe how sounds help you understand your environment."
+                ],
+                "examples": [
+                  "Birds chirping",
+                  "Vehicle sounds",
+                  "People talking",
+                  "Fan noise",
+                  "Animal sounds"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Ask how mobile phones understand voice commands.",
+              "examples": [
+                "Voice assistants",
+                "Calling someone using voice",
+                "Speech typing on phones"
+              ]
+            },
+            "think_and_notice": [
+              "Was it easy or difficult to write sentences by listening?",
+              "How did the voice change when you spoke differently?",
+              "Why do machines need voice recognition systems?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Listening and communication skills",
+              "Observation and awareness",
+              "Critical thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand speech communication",
+                "description": "Students observe how spoken language conveys information."
+              },
+              {
+                "id": 2,
+                "title": "Recognize voice variations",
+                "description": "Students understand how tone and pitch change the meaning of speech."
+              },
+              {
+                "id": 3,
+                "title": "Develop listening and observation skills",
+                "description": "Students identify sounds and speech in their environment."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI voice systems with real-life communication",
+                "description": "Students understand how AI converts speech to text and text to speech."
+              }
+            ],
+            "bonus_activity": [
+              "Try giving a simple voice command to a device if available.",
+              "Examples: Call Mom, Play music",
+              "Observe how the device understands and responds to voice commands."
+            ]
+          },
+          {
+            "day": 7,
+            "topic": "AI Avatars, Storytelling, and Human Expression",
+            "activity_title": "Storytelling Avatar",
+            "home_activity": {
+              "activity_1": {
+                "title": "Tell a Short Story",
+                "steps": [
+                  "Think of a short story with 3–4 sentences.",
+                  "Tell the story aloud to a family member.",
+                  "Use voice and expressions to make the story interesting.",
+                  "Observe how storytelling becomes engaging with expression."
+                ],
+                "examples": [
+                  "A small robot wanted to learn farming. One day it helped a farmer water the plants. The plants grew quickly, and the farmer was happy."
+                ]
+              },
+              "activity_2": {
+                "title": "Act Like a Character",
+                "steps": [
+                  "Choose a simple character.",
+                  "Speak one sentence as that character.",
+                  "Change your voice and expression to match the role.",
+                  "Observe how voice affects character identity."
+                ],
+                "examples": [
+                  "Robot: I am a robot learning to grow plants.",
+                  "Teacher",
+                  "Farmer",
+                  "Superhero"
+                ]
+              },
+              "activity_3": {
+                "title": "Create a Talking Picture",
+                "steps": [
+                  "Draw a simple character in your notebook.",
+                  "Write one sentence that the character will speak.",
+                  "Imagine how the character would talk in a video.",
+                  "Relate this to how AI avatars create talking animations."
+                ],
+                "examples": [
+                  "Cartoon robot",
+                  "Funny animal",
+                  "Superhero student",
+                  "This robot helps farmers grow healthy crops."
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Watch a short video and observe human expressions and storytelling.",
+              "examples": [
+                "Observe how the person speaks",
+                "Notice facial expressions",
+                "Understand how the story is explained"
+              ]
+            },
+            "think_and_notice": [
+              "Did the story become more interesting when spoken with expression?",
+              "How did changing your voice or character affect the story?",
+              "Why do AI avatar videos use voice and facial expressions?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Communication and storytelling skills",
+              "Creativity and imagination",
+              "Observation of human expressions"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand storytelling and communication",
+                "description": "Students learn how voice and expressions convey messages."
+              },
+              {
+                "id": 2,
+                "title": "Recognize digital avatars and AI video concepts",
+                "description": "Students understand how AI can turn text and images into talking characters."
+              },
+              {
+                "id": 3,
+                "title": "Develop creative expression",
+                "description": "Students create characters and simple stories."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI video tools with real-life communication",
+                "description": "Students relate avatar videos to human storytelling methods."
+              }
+            ],
+            "bonus_activity": [
+              "Look at a photo in your house and imagine what the person might say.",
+              "Think about what voice they would have.",
+              "Write one sentence that the photo might speak."
+            ]
+          },
+          {
+            "day": 9,
+            "topic": "Image Understanding and AI-Based Editing",
+            "activity_title": "Image Observer",
+            "home_activity": {
+              "activity_1": {
+                "title": "Observe a Photo Carefully",
+                "steps": [
+                  "Take a photo from your home such as a family photo or a poster.",
+                  "Look carefully at the image.",
+                  "Identify the main object (foreground).",
+                  "Identify the background.",
+                  "Write your observations in your notebook."
+                ],
+                "examples": [
+                  "Person → main object",
+                  "Garden or wall → background",
+                  "Book cover",
+                  "Wall poster"
+                ]
+              },
+              "activity_2": {
+                "title": "Imagine Changing the Background",
+                "steps": [
+                  "Look at the same photo.",
+                  "Imagine placing the main object in a different background.",
+                  "Think about how the scene would look.",
+                  "Relate this to AI tools that change backgrounds automatically."
+                ],
+                "examples": [
+                  "Beach",
+                  "Mountain",
+                  "City",
+                  "Space",
+                  "Person in room imagined on a beach"
+                ]
+              },
+              "activity_3": {
+                "title": "Remove an Object (Imagination Exercise)",
+                "steps": [
+                  "Observe the photo again.",
+                  "Imagine removing one object from the image.",
+                  "Think about how the image would change.",
+                  "Draw the scene without that object in your notebook."
+                ],
+                "examples": [
+                  "Remove a tree from the background",
+                  "Remove a chair from a room",
+                  "Remove a vehicle from a road scene"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find situations where photo editing is useful.",
+              "examples": [
+                "Making a passport photo",
+                "Creating a poster",
+                "School project presentation"
+              ]
+            },
+            "think_and_notice": [
+              "Which part of the photo was the main focus?",
+              "How did the image look when you imagined a new background?",
+              "Why are AI tools useful for editing photos quickly?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and visual analysis",
+              "Creative imagination",
+              "Design thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand foreground and background in images",
+                "description": "Students identify the main subject and surrounding elements in a picture."
+              },
+              {
+                "id": 2,
+                "title": "Develop visual observation skills",
+                "description": "Students analyze objects and details in images."
+              },
+              {
+                "id": 3,
+                "title": "Improve creative thinking",
+                "description": "Students imagine different backgrounds or edits for images."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI image editing with real-world uses",
+                "description": "Students understand how AI tools help modify and enhance photos."
+              }
+            ],
+            "bonus_activity": [
+              "Look at a poster or advertisement at home.",
+              "Identify the main object, background design, and colors used.",
+              "Think about how AI tools might have helped create or edit the image."
+            ]
+          },
+          {
+            "day": 10,
+            "topic": "Visual Storytelling and AI Scene Generation",
+            "activity_title": "Imagine a Movie Scene",
+            "home_activity": {
+              "activity_1": {
+                "title": "Imagine a Scene",
+                "steps": [
+                  "Think of a short movie-like scene.",
+                  "Write 2–3 sentences describing the scene.",
+                  "Focus on characters, actions, and surroundings."
+                ],
+                "examples": [
+                  "A robot helping farmers in a field",
+                  "A flying car above a city",
+                  "A dinosaur walking in a village",
+                  "A dog wearing sunglasses on a beach",
+                  "Example: A robot is watering plants in a green farm while the sun is shining."
+                ]
+              },
+              "activity_2": {
+                "title": "Draw the Scene",
+                "steps": [
+                  "Draw the scene in your notebook.",
+                  "Include main characters, background, and actions.",
+                  "Focus on expressing your imagination rather than perfection."
+                ]
+              },
+              "activity_3": {
+                "title": "Turn Your Scene into a Story",
+                "steps": [
+                  "Write 3–4 lines explaining what happens next.",
+                  "Describe actions and outcomes in the scene.",
+                  "Relate this to how AI generates videos or stories from ideas."
+                ],
+                "examples": [
+                  "The robot helps the farmer water crops.",
+                  "Soon the plants grow healthy and strong.",
+                  "The farmer thanks the robot."
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find a place around you that could become a movie scene.",
+              "examples": [
+                "Playground",
+                "Farm field",
+                "Village road",
+                "School building"
+              ]
+            },
+            "think_and_notice": [
+              "Was it easier to imagine or draw the scene?",
+              "How did adding details improve your scene?",
+              "Why do AI tools need detailed prompts to generate images or videos?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Creativity and imagination",
+              "Visual storytelling",
+              "Design thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Develop visual imagination",
+                "description": "Students imagine scenes and convert them into drawings."
+              },
+              {
+                "id": 2,
+                "title": "Understand prompt-based generation",
+                "description": "Students learn that clear descriptions help create better visual results."
+              },
+              {
+                "id": 3,
+                "title": "Improve storytelling skills",
+                "description": "Students explain events and actions in a scene."
+              },
+              {
+                "id": 4,
+                "title": "Connect AI creative tools with human imagination",
+                "description": "Students understand how AI can generate images and videos from ideas."
+              }
+            ],
+            "bonus_activity": [
+              "Watch a short video or movie clip.",
+              "Observe background, characters, and actions.",
+              "Think about how AI tools could create similar scenes automatically."
+            ]
+          }
+        ]
+      }

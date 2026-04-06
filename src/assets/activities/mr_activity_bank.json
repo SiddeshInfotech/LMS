@@ -1,0 +1,107 @@
+{
+    "courses": "MR",
+    "activities":[
+        {
+           
+            "day": 1,
+            "topic": "Real and Digital Interaction in Mixed Reality",
+            "activity_title": "Real + Digital Interaction",
+            "home_activity": {
+              "activity_1": {
+                "title": "Observe Real Interaction",
+                "steps": [
+                  "Choose two objects from your home.",
+                  "Interact with the objects by making them touch or move.",
+                  "Observe how one object reacts when it touches another.",
+                  "Think about why the objects behave in that way.",
+                  "Relate this interaction to real-world physical behavior."
+                ],
+                "examples": [
+                  "Bouncing a ball on the floor",
+                  "Tapping a spoon on a cup",
+                  "Rolling a pencil on a table",
+                  "Dropping a stone on the ground"
+                ]
+              },
+              "activity_2": {
+                "title": "Imagine a Virtual Object Reacting",
+                "steps": [
+                  "Think about a digital object interacting with your real action.",
+                  "Imagine how the digital object would react to your movement.",
+                  "Write one or two sentences describing your idea.",
+                  "Relate your idea to real-world interactions.",
+                  "Think about how technology can make this possible."
+                ],
+                "examples": [
+                  "Hitting a digital ball with a real stick",
+                  "Pushing a digital car with your hand",
+                  "Stopping a digital robot using a real book",
+                  "Moving a digital object when you move a pencil"
+                ]
+              },
+              "activity_3": {
+                "title": "Create a Simple MR Idea",
+                "steps": [
+                  "Think of one place in your house where Mixed Reality could be used.",
+                  "Imagine a real and digital interaction in that place.",
+                  "Draw your idea in your notebook.",
+                  "Think about how the digital object will respond to real actions.",
+                  "Explain your idea in simple words."
+                ],
+                "examples": [
+                  "Playing with a digital ball on a table",
+                  "Learning science using a digital model reacting to your hand",
+                  "Practicing sports with a virtual ball"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Observe situations where objects react to each other and think about how digital objects could follow the same rules in Mixed Reality.",
+              "examples": [
+                "Ball bouncing on the ground",
+                "Door stopping when it hits a wall",
+                "Bicycle stopping when brakes are applied"
+              ]
+            },
+            "think_and_notice": [
+              "Which objects did you use in your activity?",
+              "How did the objects react to each other?",
+              "How could digital objects behave the same way in Mixed Reality?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Systems thinking",
+              "Creative imagination"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand interaction between objects",
+                "description": "Students observe how physical objects respond to forces and contact."
+              },
+              {
+                "id": 2,
+                "title": "Understand the concept of Mixed Reality",
+                "description": "Students recognize how digital objects can interact with real-world objects."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and reasoning skills",
+                "description": "Students analyze real-world interactions and relate them to technology."
+              },
+              {
+                "id": 4,
+                "title": "Connect MR technology with real-life applications",
+                "description": "Students understand how Mixed Reality can simulate real-world behavior."
+              }
+            ],
+            "bonus_activity": [
+              "Look around your house and think of one game that could become more interesting using Mixed Reality.",
+              "Examples include hitting a digital cricket ball with a real bat, playing football with a virtual goalkeeper, or controlling a digital robot with your hand.",
+              "Think about how real actions could control digital objects."
+            ]
+          }
+    ]
+}

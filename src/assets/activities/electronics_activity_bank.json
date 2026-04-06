@@ -1,0 +1,962 @@
+{
+  "course": "Basic Electronics",
+  "activities": [
+    {
+      "day": 1,
+      "topic": "Introduction to Electricity in Daily Life",
+      "activity_title": "Electricity Explorer at Home",
+      "home_activity": {
+        "instructions": [
+          "Walk around your house and observe carefully.",
+          "Find at least 10 things that use electricity.",
+          "Write their names in your notebook."
+        ],
+        "examples": ["Fan", "TV"]
+      },
+      "extra_challenge": {
+        "task": "Look outside your house or on the street and try to find 3 more things that use electricity.",
+        "examples": ["Street lights"]
+      },
+      "think_and_answer": [
+        "Which device in your home do you think uses the most electricity?",
+        "Which device uses the least electricity?",
+        "What happens in your house when electricity goes off?"
+      ],
+      "discussion_instruction": "Discuss these answers with your parents or family members.",
+      "nep_skills_developed": [
+        "Experiential learning",
+        "Observation and inquiry",
+        "Real-life application of concepts",
+        "Scientific curiosity and critical thinking"
+      ],
+      "learning_outcomes": [
+        "Identify electricity in everyday life",
+        "Develop observation skills",
+        "Understand the importance of electricity",
+        "Develop curiosity about technology"
+      ],
+      "bonus_activity": [
+        "Where is the electricity meter in your house?",
+        "How much electricity bill usually comes every month?"
+      ]
+    },
+    {
+      "day": 2,
+      "topic": "Understanding Circuits and Switches",
+      "activity_title": "Switch and Circuit Explorer",
+      "home_activity": {
+        "instructions": [
+          "Go around your house and observe different electrical switches.",
+          "Find at least 5 switches that control electrical devices.",
+          "Write the device name next to each switch."
+        ],
+        "examples": [
+          {
+            "switch": "Switch 1",
+            "device": "Light"
+          },
+          {
+            "switch": "Switch 2",
+            "device": "Fan"
+          }
+        ]
+      },
+      "observation_task": [
+        "Turn one switch ON and observe what happens.",
+        "Turn the same switch OFF and observe again."
+      ],
+      "think_and_answer": [
+        "Why do you think a switch is needed in a circuit?",
+        "What would happen if there were no switches in our homes?",
+        "Why does the light turn OFF immediately when the switch is turned OFF?"
+      ],
+      "nep_skills_developed": [
+        "Experiential learning",
+        "Inquiry-based learning",
+        "Observation and analysis",
+        "Conceptual understanding"
+      ],
+      "learning_outcomes": [
+        "Identify circuits in everyday life",
+        "Understand the role of switches",
+        "Connect theory with real-world applications",
+        "Develop problem-solving and inquiry skills"
+      ],
+      "bonus_activity": [
+        "Find one device that works on battery instead of a switch",
+        "Examples: Remote control, Wall clock, Torch"
+      ]
+    },
+    {
+      "day": 3,
+      "topic": "Understanding Complete Path (Circuit)",
+      "activity_title": "Connection Path Builder",
+      "home_activity": {
+        "instructions": [
+          "Take 5–6 objects like pencils, spoons, pens, erasers.",
+          "Place them in a straight line on a table to create a path.",
+          "Roll a small ball or marble along the path.",
+          "Remove one object from the middle and try again."
+        ]
+      },
+      "extra_challenge": {
+        "task": "Create a longer path using more objects and test again.",
+        "examples": ["Books", "Pencils", "Toys"]
+      },
+      "think_and_answer": [
+        "What happens when the path is complete?",
+        "What happens when one object is removed?",
+        "Why does electricity also need a complete path to travel?"
+      ],
+      "discussion_instruction": "Discuss answers with parents or family members.",
+      "nep_skills_developed": [
+        "Experiential learning",
+        "Observation and inquiry",
+        "Real-life application of concepts",
+        "Scientific curiosity and critical thinking"
+      ],
+      "learning_outcomes": [
+        "Understand the concept of a complete path",
+        "Relate real-life paths to electrical circuits",
+        "Develop hands-on exploration skills",
+        "Strengthen logical thinking"
+      ],
+      "bonus_activity": [
+        "Find one device at home that has wires connected to it",
+        "Follow the wire and observe where it starts and ends"
+      ]
+    },
+    {
+  "day": 4,
+  "topic": "Flow Control and Storage Concept",
+  "activity_title": "Slow Down & Store Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Slow Down the Flow",
+      "steps": [
+        "Take a plastic bottle or glass of water.",
+        "Pour the water normally into another cup.",
+        "Place your finger slightly over the mouth of the bottle.",
+        "Pour the water again and observe how the water comes out slower."
+      ]
+    },
+    "activity_2": {
+      "title": "Store and Release",
+      "steps": [
+        "Take a sponge, cloth, or small towel.",
+        "Dip it in water so it absorbs water.",
+        "Lift it and slowly squeeze it.",
+        "Observe how the water comes out slowly instead of all at once."
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Take a balloon and blow air into it. Hold the opening closed, then release the air slowly and observe how the air comes out gradually."
+  },
+  "think_and_notice": [
+    "Which object made the water flow slower?",
+    "Which object stored something and released it slowly?",
+    "Where do you see similar things happening in your home?"
+  ],
+  "discussion_instruction": "Talk about this with your parents.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Scientific curiosity and critical thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Observe flow control",
+      "description": "Students understand that flow can be slowed or controlled."
+    },
+    {
+      "id": 2,
+      "title": "Observe storage and release",
+      "description": "Students experience how objects can store something and release it gradually."
+    },
+    {
+      "id": 3,
+      "title": "Connect home observations to technology",
+      "description": "Students begin relating daily-life phenomena to how machines and devices work."
+    },
+    {
+      "id": 4,
+      "title": "Develop curiosity and experimentation skills",
+      "description": "Students explore concepts through hands-on activities."
+    }
+  ]
+},
+{
+  "day": 5,
+  "topic": "Pattern Recognition and Classification",
+  "activity_title": "Find the Pattern Challenge",
+  "home_activity": {
+    "instructions": [
+      "Collect 10 small objects from your house.",
+      "Spread them on a table.",
+      "Group them based on similarities such as color, size, or shape.",
+      "Create at least 3 groups."
+    ],
+    "examples": [
+      "Buttons",
+      "Coins",
+      "Pen caps",
+      "Beads",
+      "Screws",
+      "Bottle caps"
+    ]
+  },
+  "extra_challenge": {
+    "task": "Look at the objects again and try to find patterns on them and guess what those patterns might mean.",
+    "examples": [
+      "Lines or stripes on bottle caps",
+      "Numbers on coins",
+      "Symbols on buttons"
+    ]
+  },
+  "think_and_answer": [
+    "How did you decide which objects belong in the same group?",
+    "Did any colors, numbers, or markings help you identify them?",
+    "Why do you think engineers use colors or markings on small components?"
+  ],
+  "discussion_instruction": "Discuss your ideas with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Pattern recognition",
+    "Scientific curiosity and critical thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Recognize patterns and markings",
+      "description": "Students identify visual patterns like colors, numbers, and symbols."
+    },
+    {
+      "id": 2,
+      "title": "Classify objects based on features",
+      "description": "Students group items using similarities such as color, size, or shape."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation and analytical skills",
+      "description": "Students carefully examine small details in objects."
+    },
+    {
+      "id": 4,
+      "title": "Understand how markings convey information",
+      "description": "Students begin to realize that colors or symbols can represent useful information in technology."
+    }
+  ],
+  "bonus_activity": [
+    "Look around your house and find 3 objects that use color codes or symbols.",
+    "Examples: charging cables, batteries, switches, remote control buttons",
+    "Think about what those colors or symbols might indicate."
+  ]
+},
+{
+  "day": 6,
+  "topic": "Control of Electrical Devices",
+  "activity_title": "Control the Flow Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Control with a Switch",
+      "steps": [
+        "Find a light switch in your house.",
+        "Turn the switch ON and observe what happens.",
+        "Turn the switch OFF and observe again.",
+        "Repeat this 3–4 times and notice how the device responds."
+      ],
+      "examples": [
+        "Light",
+        "Fan",
+        "Table lamp"
+      ]
+    },
+    "activity_2": {
+      "title": "Press and Release",
+      "steps": [
+        "Find a doorbell or a toy with a button.",
+        "Press the button and listen carefully.",
+        "Release the button.",
+        "Observe when the sound starts and when it stops."
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Find three buttons or switches in your home and press them to observe what happens.",
+    "examples": [
+      "Doorbell button",
+      "TV remote button",
+      "Keyboard key",
+      "Lift button"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when the switch is turned ON?",
+    "What happens when the switch is turned OFF?",
+    "What happens when you press and release a button?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Scientific curiosity and critical thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand control of devices",
+      "description": "Students observe how switches control the working of electrical devices."
+    },
+    {
+      "id": 2,
+      "title": "Recognize temporary and continuous actions",
+      "description": "Students notice that some buttons work only while pressed, while others stay ON."
+    },
+    {
+      "id": 3,
+      "title": "Connect daily experiences with technology",
+      "description": "Students relate household switches and buttons to how machines are controlled."
+    },
+    {
+      "id": 4,
+      "title": "Develop observation and experimentation skills",
+      "description": "Students learn through simple real-world exploration."
+    }
+  ],
+  "bonus_activity": [
+    "Look around your house and find 5 different switches or buttons.",
+    "Examples: light switch, doorbell button, microwave button, TV remote, keyboard keys",
+    "Notice how each one controls something different."
+  ]
+},
+{
+  "day": 7,
+  "topic": "Single Path and Multiple Path Concept",
+  "activity_title": "One Path vs Many Paths Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Single Path Experiment",
+      "steps": [
+        "Place 4–5 books or boxes in a straight line on the floor.",
+        "Create a narrow walking path between them.",
+        "Ask one family member to walk through that path.",
+        "Observe how people have to move one after another in the same path."
+      ]
+    },
+    "activity_2": {
+      "title": "Multiple Paths Experiment",
+      "steps": [
+        "Arrange the books in a way that two walking paths are created.",
+        "Ask two family members to walk through the paths at the same time.",
+        "Observe how movement becomes faster and easier when there are multiple paths."
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your home and find two places where multiple paths exist and observe how movement happens through different routes.",
+    "examples": [
+      "Staircase with two sides",
+      "Two doors in a room",
+      "Two taps connected to one water tank"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when everyone has to move through one single path?",
+    "What happens when there are multiple paths available?",
+    "Which situation allows things to move more easily?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Logical thinking and problem solving"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand the concept of shared and separate paths",
+      "description": "Students observe how movement changes depending on the number of available paths."
+    },
+    {
+      "id": 2,
+      "title": "Relate real-life paths to electrical systems",
+      "description": "Students connect daily situations with how electricity can travel through different routes."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation and reasoning skills",
+      "description": "Students analyze how different arrangements affect movement."
+    },
+    {
+      "id": 4,
+      "title": "Strengthen curiosity about how systems work",
+      "description": "Students begin exploring how engineers design systems for better performance."
+    }
+  ],
+  "bonus_activity": [
+    "Look at the lights in your home.",
+    "Turn ON two or three lights in different rooms.",
+    "Now switch one OFF.",
+    "Observe whether the other lights still stay ON.",
+    "Think about why that happens."
+  ]
+},
+{
+  "day": 8,
+  "topic": "Control Mechanisms and Cause-Effect",
+  "activity_title": "Small Action, Big Result Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Tap Control",
+      "steps": [
+        "Find a water tap in your house.",
+        "Open the tap slightly and observe the water flow.",
+        "Open the tap fully and observe again.",
+        "Observe how a small movement of the tap changes the amount of water flowing."
+      ]
+    },
+    "activity_2": {
+      "title": "Control Something Bigger",
+      "steps": [
+        "Turn ON a fan or light using a switch.",
+        "Notice how a small finger movement controls a big device.",
+        "Try this with 2 different devices in your house."
+      ],
+      "examples": [
+        "Light",
+        "Fan",
+        "Table lamp"
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Find three things in your house where a small action controls a bigger result.",
+    "examples": [
+      "TV remote button controlling the TV",
+      "Doorbell button ringing a loud bell",
+      "Fan regulator changing fan speed"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when you move the tap a little versus a lot?",
+    "How does a small button or switch control a bigger device?",
+    "Why do you think machines use small controls instead of large ones?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Logical reasoning and curiosity"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand control mechanisms",
+      "description": "Students observe how small actions can control larger systems."
+    },
+    {
+      "id": 2,
+      "title": "Recognize control systems in everyday life",
+      "description": "Students identify real-life examples where small inputs influence bigger outputs."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation and reasoning skills",
+      "description": "Students analyze cause-and-effect relationships in daily situations."
+    },
+    {
+      "id": 4,
+      "title": "Build curiosity about how machines work",
+      "description": "Students begin connecting everyday controls with technology systems."
+    }
+  ],
+  "bonus_activity": [
+    "Look around your house and find three devices that are controlled by buttons or small signals.",
+    "Examples: TV remote, elevator buttons, washing machine control panel, microwave buttons",
+    "Observe how one small button can control a larger machine."
+  ]
+}, 
+{
+  "day": 9,
+  "topic": "Energy and Motion in Machines",
+  "activity_title": "Energy to Motion Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Observe a Moving Machine",
+      "steps": [
+        "Find a device in your home that rotates or spins.",
+        "Turn it ON and carefully observe what part of the machine moves."
+      ],
+      "examples": [
+        "Ceiling fan",
+        "Mixer grinder",
+        "Washing machine",
+        "Toy car"
+      ]
+    },
+    "activity_2": {
+      "title": "Change the Direction",
+      "steps": [
+        "Take a small toy car or spinning toy.",
+        "Push it forward gently.",
+        "Push it in the opposite direction.",
+        "Observe how the direction of motion changes."
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your house and find 5 things that move or rotate using energy.",
+    "examples": [
+      "Fan blades",
+      "Mixer blades",
+      "Washing machine drum",
+      "Water pump",
+      "Electric toothbrush"
+    ]
+  },
+  "think_and_notice": [
+    "Which part of the device was moving or spinning?",
+    "What do you think makes that part move?",
+    "Can machines work if nothing inside them moves?"
+  ],
+  "discussion_instruction": "Discuss your ideas with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Logical reasoning and curiosity"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand motion in machines",
+      "description": "Students observe how machines create movement."
+    },
+    {
+      "id": 2,
+      "title": "Identify energy converting into motion",
+      "description": "Students recognize that energy can cause objects to rotate or move."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation skills",
+      "description": "Students carefully analyze how devices around them operate."
+    },
+    {
+      "id": 4,
+      "title": "Connect daily experiences with technology",
+      "description": "Students relate household devices to engineering concepts."
+    }
+  ],
+  "bonus_activity": [
+    "Find three devices in your home that spin or rotate.",
+    "Examples: fan, mixer, toy car wheels, washing machine",
+    "Observe how these devices use energy to create movement."
+  ]
+},
+{
+  "day": 10,
+  "topic": "Gradual Control and Variable Systems",
+  "activity_title": "Slow–Fast Control Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Control Water Flow",
+      "steps": [
+        "Find a water tap in your house.",
+        "Turn the tap slightly and observe the water flow.",
+        "Open the tap halfway and observe again.",
+        "Open the tap fully and observe how the flow changes from slow to fast."
+      ]
+    },
+    "activity_2": {
+      "title": "Control Speed",
+      "steps": [
+        "Find a device where you can adjust the speed or level.",
+        "Change the level slowly.",
+        "Observe how the speed or sound changes step by step."
+      ],
+      "examples": [
+        "Fan regulator",
+        "Volume knob on speaker",
+        "Mixer speed control"
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your house and find 3 devices that allow gradual control instead of just ON/OFF.",
+    "examples": [
+      "Fan speed regulator",
+      "TV or speaker volume control",
+      "Light dimmer switch",
+      "Gas stove knob"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when the tap is opened a little versus fully?",
+    "How does changing the fan regulator affect the speed of the fan?",
+    "Why do you think machines sometimes need slow, medium, and fast levels instead of just ON and OFF?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life application of concepts",
+    "Logical reasoning and curiosity"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand gradual control",
+      "description": "Students observe how systems can change levels smoothly instead of simply turning ON or OFF."
+    },
+    {
+      "id": 2,
+      "title": "Identify adjustable systems in daily life",
+      "description": "Students recognize devices that allow control over speed, brightness, or volume."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation and analytical skills",
+      "description": "Students analyze how changing a control affects a machine’s behavior."
+    },
+    {
+      "id": 4,
+      "title": "Connect real-life observations with technology",
+      "description": "Students relate household control systems to engineering design."
+    }
+  ],
+  "bonus_activity": [
+    "Find three knobs or dials in your home.",
+    "Examples: gas stove knob, fan regulator, speaker volume knob",
+    "Turn them slowly and observe how the output changes step by step."
+  ]
+},
+{
+  "day": 11,
+  "topic": "Repeating Patterns and Timing in Systems",
+  "activity_title": "Rhythm and Pattern Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Observe a Repeating Pattern",
+      "steps": [
+        "Find something around you that repeats the same action again and again.",
+        "Watch the pattern for 30–60 seconds.",
+        "Observe how the action repeats over time."
+      ],
+      "examples": [
+        "Blinking decorative lights",
+        "Indicator light on a router",
+        "Washing machine cycle",
+        "Microwave timer beep"
+      ]
+    },
+    "activity_2": {
+      "title": "Create Your Own Rhythm",
+      "steps": [
+        "Clap your hands slowly five times.",
+        "Clap faster five times.",
+        "Clap in a steady rhythm.",
+        "Observe how repeating actions can create patterns or timing."
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your house and find three things that work in a repeating cycle.",
+    "examples": [
+      "Traffic signal changing colors",
+      "Blinking decorative lights",
+      "Alarm clock beeping",
+      "Washing machine rinse cycle"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when something repeats the same action again and again?",
+    "Did the pattern stay regular or change over time?",
+    "Why do you think machines follow timed patterns?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Pattern recognition",
+    "Logical reasoning and curiosity"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Recognize repeating patterns",
+      "description": "Students observe actions that occur in regular cycles."
+    },
+    {
+      "id": 2,
+      "title": "Understand timing in systems",
+      "description": "Students identify how machines perform tasks in timed intervals."
+    },
+    {
+      "id": 3,
+      "title": "Develop observation and reasoning skills",
+      "description": "Students analyze patterns and predict repeating events."
+    },
+    {
+      "id": 4,
+      "title": "Connect real-life patterns with technology",
+      "description": "Students begin relating everyday cycles to how automated systems operate."
+    }
+  ],
+  "bonus_activity": [
+    "Find two devices in your home that work automatically with timing.",
+    "Examples: microwave timer, washing machine program, alarm clock, automatic lights",
+    "Observe how these devices perform actions after a certain time interval."
+  ]
+},
+{
+  "day": 12,
+  "topic": "Checking Connections and Troubleshooting in Devices",
+  "activity_title": "Check Before You Use Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Battery Check",
+      "steps": [
+        "Find two devices in your house that use batteries.",
+        "Check whether the device is working properly.",
+        "Remove the battery and insert it again correctly.",
+        "Observe what happens."
+      ],
+      "examples": [
+        "TV remote",
+        "Wall clock",
+        "Toy",
+        "Flashlight"
+      ]
+    },
+    "activity_2": {
+      "title": "Connection Check",
+      "steps": [
+        "Find a device that uses a plug and wire.",
+        "Check if the plug is properly connected.",
+        "Check if the wire is bent or loose.",
+        "Turn the switch ON and observe if the device works."
+      ],
+      "examples": [
+        "Phone charger",
+        "Table lamp",
+        "Computer charger"
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your home and find three devices that sometimes stop working.",
+    "examples": [
+      "Remote with weak batteries",
+      "Charger with loose wire",
+      "Lamp with loose plug"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when the battery is placed correctly vs incorrectly?",
+    "What happens if a plug or wire is not properly connected?",
+    "Why do you think engineers check and measure things instead of guessing?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Observation and inquiry",
+    "Real-life problem solving",
+    "Logical reasoning and critical thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand the importance of checking systems",
+      "description": "Students observe that devices work only when connections and power are correct."
+    },
+    {
+      "id": 2,
+      "title": "Identify simple problems in everyday devices",
+      "description": "Students recognize issues such as loose wires or weak batteries."
+    },
+    {
+      "id": 3,
+      "title": "Develop troubleshooting skills",
+      "description": "Students learn to check possible causes when something does not work."
+    },
+    {
+      "id": 4,
+      "title": "Build an engineering mindset",
+      "description": "Students understand the importance of testing and verification."
+    }
+  ],
+  "bonus_activity": [
+    "Find three devices in your house that use electricity or batteries.",
+    "Before using them, check: power source, switch, and connections.",
+    "Observe how small checks can help devices work properly."
+  ]
+},
+{
+  "day": 13,
+  "topic": "Systems and Multiple Component Interaction",
+  "activity_title": "System Builder Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Create a Simple Signal System",
+      "steps": [
+        "Take a bell or buzzer toy (or use a clap sound) and a torch or mobile flashlight.",
+        "Turn ON the torch.",
+        "At the same time, ring the bell or clap your hands.",
+        "Observe how two signals happen together.",
+        "Repeat this activity 3–4 times."
+      ]
+    },
+    "activity_2": {
+      "title": "Control a System",
+      "steps": [
+        "Find a device that uses a button or switch to start an action.",
+        "Press the button or switch.",
+        "Observe what happens when the device starts working."
+      ],
+      "examples": [
+        "Doorbell",
+        "Electric kettle switch",
+        "Mixer switch",
+        "Washing machine button"
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look around your house and find three systems where multiple parts work together.",
+    "examples": [
+      "Doorbell system (button → bell sound)",
+      "Washing machine (buttons → washing cycle)",
+      "Microwave (timer → heating → beep)"
+    ]
+  },
+  "think_and_notice": [
+    "What happens when you start a device using a button or switch?",
+    "Do multiple things happen together (light, sound, motion)?",
+    "Why do machines use multiple parts working together?"
+  ],
+  "discussion_instruction": "Discuss your observations with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Systems thinking",
+    "Observation and inquiry",
+    "Real-life problem solving"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Understand systems made of multiple parts",
+      "description": "Students observe that machines consist of components working together."
+    },
+    {
+      "id": 2,
+      "title": "Recognize cause-and-effect relationships",
+      "description": "Students understand how one action can trigger multiple outcomes."
+    },
+    {
+      "id": 3,
+      "title": "Develop systems thinking",
+      "description": "Students analyze how different elements interact within a system."
+    },
+    {
+      "id": 4,
+      "title": "Connect real-life systems with engineering concepts",
+      "description": "Students relate everyday devices to how circuits and machines are designed."
+    }
+  ],
+  "bonus_activity": [
+    "Find one system in your home that gives both light and sound signals.",
+    "Examples: doorbell camera, mobile phone notification, alarm clock",
+    "Observe how different signals work together to communicate information."
+  ]
+},
+{
+  "day": 14,
+  "topic": "Problem Solving and Basic Design Thinking in Electronics",
+  "activity_title": "Inventor at Home Challenge",
+  "home_activity": {
+    "activity_1": {
+      "title": "Observe a Problem",
+      "steps": [
+        "Walk around your house and find one small problem that happens regularly.",
+        "Think about how this problem affects daily life."
+      ],
+      "examples": [
+        "Water tank overflowing",
+        "Lights left ON in empty rooms",
+        "Doorbell not heard in another room",
+        "Phone battery running out quickly"
+      ]
+    },
+    "activity_2": {
+      "title": "Think of a Simple Solution",
+      "steps": [
+        "Imagine a simple system that could solve the identified problem.",
+        "Draw or describe your idea in your notebook."
+      ],
+      "examples": [
+        "Alarm when water tank is full",
+        "Automatic light that turns OFF",
+        "Louder doorbell signal",
+        "Reminder when battery is low"
+      ]
+    }
+  },
+  "extra_exploration": {
+    "task": "Look at three systems in your house that already solve problems.",
+    "examples": [
+      "Washing machine (automatic washing)",
+      "Microwave timer",
+      "Doorbell alert",
+      "Refrigerator cooling system"
+    ]
+  },
+  "think_and_notice": [
+    "What problem did you observe at home?",
+    "What simple system could solve that problem?",
+    "How do machines help people in everyday life?"
+  ],
+  "discussion_instruction": "Discuss your ideas with your parents or family members.",
+  "nep_skills_developed": [
+    "Experiential learning",
+    "Design thinking",
+    "Creativity and innovation",
+    "Real-life problem solving"
+  ],
+  "learning_outcomes": [
+    {
+      "id": 1,
+      "title": "Identify real-life problems",
+      "description": "Students observe common issues in their surroundings."
+    },
+    {
+      "id": 2,
+      "title": "Develop problem-solving thinking",
+      "description": "Students think of possible solutions using simple systems."
+    },
+    {
+      "id": 3,
+      "title": "Apply creativity and innovation",
+      "description": "Students imagine how technology can improve daily life."
+    },
+    {
+      "id": 4,
+      "title": "Connect learning with real-world applications",
+      "description": "Students relate electronics concepts to practical uses."
+    }
+  ],
+  "bonus_activity": [
+    "Look around your home and identify three machines that automatically perform tasks.",
+    "Examples: washing machine, automatic water pump, microwave timer",
+    "Think about how electronics might help these machines work automatically."
+  ]
+}
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "ai-and-mechatronix-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "electron-start": "electron .",
+    "build": "vite build",
+    "rebuild": "npx rimraf build && npx node-gyp rebuild",
+    "postbuild:video": "node tools/encrypt_assets.cjs",
+    "package-win": "npm run rebuild && npm run build && npm run postbuild:video && electron-builder --win --x64",
+    "package-linux": "npm run rebuild && npm run build && npm run postbuild:video && electron-builder --linux deb --x64"
+  },
+  "build": {
+    "appId": "com.lms.security",
+    "productName": "LMS Security Test",
+    "files": [
+      "dist/**/*",
+      "build/Release/recorder_detect.node",
+      "main.cjs",
+      "preload.cjs",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "build/Release/recorder_detect.node",
+        "to": "recorder_detect.node"
+      },
+      {
+        "from": "resources/encrypted",
+        "to": "encrypted"
+      },
+      "license.lic",
+      "tools/public.pem",
+      "tools/master_key.txt"
+    ],
+    "directories": {
+      "output": "dist_electron",
+      "buildResources": "resources"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "linux": {
+      "target": "deb",
+      "maintainer": "LMS Admin",
+      "executableName": "lms-secure"
+    },
+    "npmRebuild": false
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "lucide-react": "^1.7.0",
+    "node-addon-api": "^8.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.2",
+    "electron": "^40.8.0",
+    "electron-builder": "^26.8.1",
+    "vite": "^5.4.21"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

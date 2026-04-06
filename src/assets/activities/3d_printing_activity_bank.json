@@ -1,0 +1,192 @@
+{
+    "course":"3D Printing",
+    "activities":[
+        {
+            "day": 1,
+            "topic": "Introduction to 3D Objects and Layer-Based Construction",
+            "activity_title": "3D Object Explorer",
+            "home_activity": {
+              "activity_1": {
+                "title": "Find 3D Objects Around You",
+                "steps": [
+                  "Look around your house and find five objects that have length, width, and height.",
+                  "Hold each object and observe its shape from different sides."
+                ],
+                "examples": [
+                  "Water bottle",
+                  "Cup",
+                  "Stone",
+                  "Toy",
+                  "Soap bar"
+                ]
+              },
+              "activity_2": {
+                "title": "Compare 2D and 3D",
+                "steps": [
+                  "Find two flat objects and two solid objects.",
+                  "Observe the difference between flat (2D-like) and solid (3D) objects.",
+                  "Notice how 3D objects have thickness and can be held, while flat objects cannot."
+                ],
+                "examples": [
+                  "Flat objects: page of a notebook, newspaper, wall calendar",
+                  "Solid objects: glass, brick, box"
+                ]
+              },
+              "activity_3": {
+                "title": "Create a Shape Using Layers",
+                "steps": [
+                  "Take small objects like coins, leaves, or papers.",
+                  "Place them one above another to create a stack.",
+                  "Observe how stacking layer by layer increases height.",
+                  "Relate this to how 3D printers build objects layer by layer."
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Look around your home or village and find one broken object.",
+              "examples": [
+                "Bucket handle",
+                "Plastic clip",
+                "Toy part",
+                "Pipe connector"
+              ]
+            },
+            "think_and_notice": [
+              "Which object you found had the most interesting shape?",
+              "How does stacking layers increase the height of an object?",
+              "Why could 3D printing be useful in villages or homes?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Spatial understanding",
+              "Creative thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand 3D shapes",
+                "description": "Students recognize objects with length, width, and height."
+              },
+              {
+                "id": 2,
+                "title": "Understand the layer-by-layer concept",
+                "description": "Students observe how stacking layers builds a structure."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and spatial reasoning skills",
+                "description": "Students analyze shapes and structures around them."
+              },
+              {
+                "id": 4,
+                "title": "Connect technology with real-life problem solving",
+                "description": "Students imagine how 3D printing could help repair or create objects."
+              }
+            ],
+            "bonus_activity": [
+              "Find three objects that could be designed on a computer and printed using a 3D printer.",
+              "Examples: keychain, small toy, bottle cap",
+              "Think about what new object you would like to design and print."
+            ]
+          },
+          {
+            "day": 2,
+            "topic": "Machines as Systems of Connected Parts and Assembly",
+            "activity_title": "Machine Builder Challenge",
+            "home_activity": {
+              "activity_1": {
+                "title": "Observe Machines Made of Parts",
+                "steps": [
+                  "Look around your house or village and find one machine made from many connected parts.",
+                  "Observe the machine carefully and identify different parts that help it work."
+                ],
+                "examples": [
+                  "Bicycle (wheels, chain, pedals, handle, seat)",
+                  "Ceiling fan",
+                  "Hand pump",
+                  "Tractor",
+                  "Sewing machine"
+                ]
+              },
+              "activity_2": {
+                "title": "Try Simple Assembly",
+                "steps": [
+                  "Take 3–4 small objects from your home.",
+                  "Stack or arrange them to build a small structure like a tower or bridge.",
+                  "Observe how the structure becomes stronger when parts are arranged properly."
+                ],
+                "examples": [
+                  "Books",
+                  "Wooden blocks",
+                  "Boxes",
+                  "Stones"
+                ]
+              },
+              "activity_3": {
+                "title": "Check Moving Parts",
+                "steps": [
+                  "Find an object that moves smoothly when pushed or rotated.",
+                  "Move the object slowly.",
+                  "Observe how different parts help it move smoothly."
+                ],
+                "examples": [
+                  "Bicycle wheel",
+                  "Door hinge",
+                  "Drawer slider",
+                  "Fan blade"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Look around your home and find two objects that are fixed using bolts, screws, or nuts.",
+              "examples": [
+                "Bicycle parts",
+                "Chair frame",
+                "Door hinges",
+                "Farming tools"
+              ]
+            },
+            "think_and_notice": [
+              "Which machine had the most parts?",
+              "Why is it important that parts are fixed tightly in a machine?",
+              "What might happen if a machine is assembled incorrectly?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Systems thinking",
+              "Problem-solving skills"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand machines as systems of parts",
+                "description": "Students observe how machines are built from multiple components."
+              },
+              {
+                "id": 2,
+                "title": "Recognize the importance of proper assembly",
+                "description": "Students understand that correct assembly ensures stability and smooth functioning."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and analytical skills",
+                "description": "Students analyze how different parts contribute to a machine's operation."
+              },
+              {
+                "id": 4,
+                "title": "Connect engineering concepts with real life",
+                "description": "Students relate everyday machines to how devices like 3D printers are assembled."
+              }
+            ],
+            "bonus_activity": [
+              "Ask someone in your house which machine needs regular tightening or repair.",
+              "Examples: bicycle, farming tools, water pump",
+              "Think about why machines need maintenance to work properly."
+            ]
+          }
+    ]
+}

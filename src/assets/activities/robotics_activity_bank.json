@@ -1,0 +1,526 @@
+{
+    "courses":"Robotics",
+    "activities":[
+        {
+          
+            "day": 1,
+            "topic": "Introduction to Machines and Basic Robotics Concepts",
+            "activity_title": "Smart Machine Finder",
+            "home_activity": {
+              "activity_1": {
+                "title": "Find a Smart Machine Around You",
+                "steps": [
+                  "Look around your house, farm, or village.",
+                  "Find at least three machines that help people do work.",
+                  "Observe what work each machine is doing.",
+                  "Think about how these machines make work easier.",
+                  "Relate these machines to everyday tasks."
+                ],
+                "examples": [
+                  "Water motor used for irrigation",
+                  "Tractor in the farm",
+                  "Electric flour mill (atta chakki)",
+                  "Mobile phone",
+                  "Torch or battery light"
+                ]
+              },
+              "activity_2": {
+                "title": "Observe How It Works",
+                "steps": [
+                  "Choose one machine and observe it carefully.",
+                  "Identify what information the machine receives.",
+                  "Think about what decision happens after receiving the input.",
+                  "Observe what action the machine performs.",
+                  "Relate this process to input, decision, and action."
+                ],
+                "examples": [
+                  "Water motor: input is switching ON, action is water flowing",
+                  "Torch: input is pressing switch, action is light turning ON"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Look around your village and find machines that help people work faster and observe how they reduce effort.",
+              "examples": [
+                "Tractor ploughing the field",
+                "Water pump near the well",
+                "Flour mill grinding grains",
+                "Electric street light turning ON at night"
+              ]
+            },
+            "think_and_notice": [
+              "Which machine in your village helps people save time or effort?",
+              "What happens when someone presses a switch or button?",
+              "How do machines help farmers or workers complete their work faster?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Real-life problem understanding",
+              "Systems thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Identify machines used in rural life",
+                "description": "Students observe technology used in farms and villages."
+              },
+              {
+                "id": 2,
+                "title": "Understand how machines help humans",
+                "description": "Students recognize how machines reduce human effort."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and analytical skills",
+                "description": "Students analyze how machines start and perform work."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real life",
+                "description": "Students understand how robots are advanced machines designed to help people."
+              }
+            ],
+            "bonus_activity": [
+              "Ask an elder in your house how work was done before machines like tractors or motors were used.",
+              "Listen carefully and compare it with how machines are used today.",
+              "Think about how machines have changed people's work and made tasks easier."
+            ]
+          },
+          {
+            
+            "day": 2,
+            "topic": "Understanding Machine Parts and Systems",
+            "activity_title": "Parts and System Finder",
+            "home_activity": {
+              "activity_1": {
+                "title": "Find a Tool or Machine",
+                "steps": [
+                  "Look around your house or farm.",
+                  "Find one tool or machine made of multiple parts.",
+                  "Observe the machine carefully.",
+                  "Identify different parts that help it work.",
+                  "Think about how these parts are connected."
+                ],
+                "examples": [
+                  "Bicycle",
+                  "Hand pump",
+                  "Tractor",
+                  "Ceiling fan",
+                  "Grain grinder (chakki)"
+                ]
+              },
+              "activity_2": {
+                "title": "Identify the Parts",
+                "steps": [
+                  "Choose one machine to study in detail.",
+                  "List the different parts of the machine.",
+                  "Observe how each part contributes to the machine.",
+                  "Think about how the parts work together.",
+                  "Relate this to a system where each part has a role."
+                ],
+                "examples": [
+                  "Bicycle: wheels, chain, pedals, handle, seat",
+                  "Ceiling fan: blades, motor, switch, rod"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find more objects made of connected parts and observe how each part performs a specific function.",
+              "examples": [
+                "Wooden cart",
+                "Farm tools",
+                "Water hand pump",
+                "Door lock"
+              ]
+            },
+            "think_and_notice": [
+              "What parts did you observe in the machine?",
+              "Which part helps the machine move?",
+              "Which part helps control the machine?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Systems thinking",
+              "Real-life application of concepts"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Recognize systems made of multiple parts",
+                "description": "Students observe how machines are built from many components."
+              },
+              {
+                "id": 2,
+                "title": "Understand the role of different parts",
+                "description": "Students identify that each part performs a specific function."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and analytical skills",
+                "description": "Students analyze how machines around them operate."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real life",
+                "description": "Students understand that robots are also built using many coordinated parts."
+              }
+            ],
+            "bonus_activity": [
+              "Ask someone at home which machine in your village has the most parts.",
+              "Examples may include tractor, bicycle, or flour mill.",
+              "Try to count and list as many parts as you can identify in that machine."
+            ]
+          },
+          {
+            "day": 3,
+            "topic": "Gripping Mechanisms and Basic Robotic Movement",
+            "activity_title": "Grab and Lift Challenge",
+            "home_activity": {
+              "activity_1": {
+                "title": "Pick and Move Objects",
+                "steps": [
+                  "Find three small objects in your house.",
+                  "Use only your thumb and index finger to pick each object.",
+                  "Lift the object and place it somewhere else.",
+                  "Observe how your fingers hold and release the object.",
+                  "Think about how grip strength and control work together."
+                ],
+                "examples": [
+                  "Small stone",
+                  "Bottle cap",
+                  "Coin",
+                  "Small fruit like a lemon"
+                ]
+              },
+              "activity_2": {
+                "title": "Try a Simple Grab Tool",
+                "steps": [
+                  "Take two sticks, pencils, or spoons.",
+                  "Hold them like a pair of tongs.",
+                  "Try picking up small objects using the sticks.",
+                  "Observe how the tool helps in gripping objects.",
+                  "Compare this with how your fingers work."
+                ],
+                "examples": [
+                  "Paper ball",
+                  "Bottle cap",
+                  "Small leaf"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find tools used for picking or holding objects and observe how they help improve grip and control.",
+              "examples": [
+                "Kitchen tongs",
+                "Pliers",
+                "Farming tools used to lift objects",
+                "Sugarcane cutting tool"
+              ]
+            },
+            "think_and_notice": [
+              "Which method made it easier to pick up objects?",
+              "How do your fingers work together to hold something tightly?",
+              "Why do machines sometimes use robotic arms to pick objects?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Hand-eye coordination",
+              "Real-life application of concepts"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand gripping mechanisms",
+                "description": "Students observe how objects can be held and moved using simple tools."
+              },
+              {
+                "id": 2,
+                "title": "Relate human hand movement to robotic arms",
+                "description": "Students understand how robots mimic human hand functions."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and motor coordination skills",
+                "description": "Students analyze how grip and movement work together."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real-world tools",
+                "description": "Students identify tools that use similar gripping mechanisms."
+              }
+            ],
+            "bonus_activity": [
+              "Look around your house and find three tools that help people lift or hold objects.",
+              "Examples include pliers, tongs, and farming tools.",
+              "Observe how these tools increase human strength and control, similar to robotic arms."
+            ]
+          },
+          {
+           
+            "day": 4,
+            "topic": "Grip Strength and Robotic Claw Mechanisms",
+            "activity_title": "Strong Grip Challenge",
+            "home_activity": {
+              "activity_1": {
+                "title": "Test Your Grip Strength",
+                "steps": [
+                  "Collect three different objects from your home.",
+                  "Hold each object tightly using your hand.",
+                  "Observe which objects are easy to hold.",
+                  "Notice which objects are difficult to hold.",
+                  "Think about how size and shape affect grip."
+                ],
+                "examples": [
+                  "Small stone",
+                  "Lemon or potato",
+                  "Bottle cap",
+                  "Small stick"
+                ]
+              },
+              "activity_2": {
+                "title": "Use a Simple Tool to Grab",
+                "steps": [
+                  "Take two spoons, sticks, or pencils.",
+                  "Hold them together like a pair of tongs.",
+                  "Try picking up small objects using the tool.",
+                  "Observe how the tool improves your grip.",
+                  "Compare this with using your hand directly."
+                ],
+                "examples": [
+                  "Paper ball",
+                  "Small leaf",
+                  "Bottle cap"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find tools used for gripping or holding objects and observe how they help apply strong and stable grip.",
+              "examples": [
+                "Pliers",
+                "Sugarcane cutting tool",
+                "Farm tool used to lift bundles",
+                "Kitchen tongs"
+              ]
+            },
+            "think_and_notice": [
+              "Which object was easiest to grab and hold?",
+              "How did the sticks or spoons help you grip objects better?",
+              "Why do machines sometimes need strong claws to hold objects?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Hand-eye coordination",
+              "Real-life application of concepts"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand gripping mechanisms",
+                "description": "Students observe how objects can be held using different methods."
+              },
+              {
+                "id": 2,
+                "title": "Relate human tools to robotic claws",
+                "description": "Students understand how robots mimic tools used by humans."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and coordination skills",
+                "description": "Students analyze how grip strength affects holding objects."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real-world tools",
+                "description": "Students recognize how gripping mechanisms are used in everyday tools."
+              }
+            ],
+            "bonus_activity": [
+              "Look around your house or farm and find three tools that help people hold, grab, or lift objects.",
+              "Examples include pliers, tongs, and farming tools.",
+              "Think about how a robotic claw could perform the same work automatically."
+            ]
+          },
+          {
+
+            "day": 5,
+            "topic": "Lifting Mechanisms and Mechanical Advantage",
+            "activity_title": "Lift the Load Challenge",
+            "home_activity": {
+              "activity_1": {
+                "title": "Lift Different Weights",
+                "steps": [
+                  "Find three objects with different weights from your house.",
+                  "Lift each object using one hand.",
+                  "Observe which objects are easy to lift.",
+                  "Notice which objects are heavy to lift.",
+                  "Think about how weight affects the effort needed."
+                ],
+                "examples": [
+                  "Small stone",
+                  "Book",
+                  "Water bottle",
+                  "Metal spoon"
+                ]
+              },
+              "activity_2": {
+                "title": "Use a Tool to Lift",
+                "steps": [
+                  "Take a long stick, ruler, or wooden spoon.",
+                  "Place a small object on the ground.",
+                  "Use the stick to push and lift the object.",
+                  "Observe how the tool reduces effort.",
+                  "Relate this to how machines help lift heavy objects."
+                ],
+                "examples": [
+                  "Stone",
+                  "Bottle cap"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find machines or tools that help lift heavy objects and observe how they reduce human effort.",
+              "examples": [
+                "Tractor lifting farming tools",
+                "Crane at a construction site",
+                "Hand pulley used to pull water from a well",
+                "Trolley used to carry crops"
+              ]
+            },
+            "think_and_notice": [
+              "Which object was most difficult to lift?",
+              "How did the stick help you move or lift objects?",
+              "Why do machines use mechanisms to lift heavy things?"
+            ],
+            "discussion_instruction": "Discuss your observations with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Problem-solving skills",
+              "Real-life application of concepts"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand lifting mechanisms",
+                "description": "Students observe how objects can be lifted using tools."
+              },
+              {
+                "id": 2,
+                "title": "Recognize how machines increase human strength",
+                "description": "Students identify how tools and machines help lift heavy loads."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and reasoning skills",
+                "description": "Students analyze how different objects require different effort to lift."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real-world machines",
+                "description": "Students relate robotic lifting mechanisms to machines used in daily life."
+              }
+            ],
+            "bonus_activity": [
+              "Ask an elder how heavy objects were lifted before machines were used.",
+              "Examples may include manual lifting, pulley systems, or wooden carts.",
+              "Think about how robots or machines could make this work easier today."
+            ]
+          },
+          {
+            
+            "day": 6,
+            "topic": "Machine Components and Functional Classification",
+            "activity_title": "Machine Parts Explorer",
+            "home_activity": {
+              "activity_1": {
+                "title": "Find Objects With Different Roles",
+                "steps": [
+                  "Look around your house or farm.",
+                  "Collect or observe five different objects.",
+                  "Identify different parts of each object.",
+                  "Observe how each part helps the object work.",
+                  "Think about the role of each part."
+                ],
+                "examples": [
+                  "Mobile phone",
+                  "Torch",
+                  "Bicycle",
+                  "Hand pump",
+                  "Radio"
+                ]
+              },
+              "activity_2": {
+                "title": "Group the Parts by Their Work",
+                "steps": [
+                  "Choose one machine or object you observed.",
+                  "List its different parts.",
+                  "Group the parts into power source, movement parts, and structure parts.",
+                  "Observe how each group has a different function.",
+                  "Relate this grouping to how machines are designed."
+                ],
+                "examples": [
+                  "Power source: battery, electricity, fuel",
+                  "Movement parts: wheels, rotating parts, pedals",
+                  "Structure parts: frame, body, handle"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Find machines with multiple connected parts and observe how each part performs a specific role.",
+              "examples": [
+                "Bicycle",
+                "Tractor",
+                "Flour mill (atta chakki)",
+                "Water hand pump"
+              ]
+            },
+            "think_and_notice": [
+              "Which machine had the most parts?",
+              "Which parts help the machine move?",
+              "Which parts help the machine stay strong and stable?"
+            ],
+            "discussion_instruction": "Discuss your ideas with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Observation and inquiry",
+              "Systems thinking",
+              "Real-life application of concepts"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand that machines are made of many parts",
+                "description": "Students recognize that machines consist of components with specific roles."
+              },
+              {
+                "id": 2,
+                "title": "Identify different functions of parts",
+                "description": "Students classify parts based on their function such as movement, power, and structure."
+              },
+              {
+                "id": 3,
+                "title": "Develop observation and analytical skills",
+                "description": "Students carefully examine machines and tools around them."
+              },
+              {
+                "id": 4,
+                "title": "Connect robotics concepts with real-life machines",
+                "description": "Students relate everyday machines to how robots are built."
+              }
+            ],
+            "bonus_activity": [
+              "Ask someone which machine in your village has the most parts.",
+              "Examples may include tractor, flour mill, or bicycle.",
+              "Try to list at least five parts of that machine."
+            ]
+          }
+    ]
+}

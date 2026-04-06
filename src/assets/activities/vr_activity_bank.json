@@ -1,0 +1,106 @@
+{
+    "courses":"Robotics",
+    "activities":[
+        {
+            "day": 1,
+            "topic": "Introduction to Virtual Reality and Immersive Environments",
+            "activity_title": "Imagine a New World",
+            "home_activity": {
+              "activity_1": {
+                "title": "Close Your Eyes and Imagine",
+                "steps": [
+                  "Sit quietly and close your eyes for one minute.",
+                  "Imagine yourself in a different place.",
+                  "Think about what you see, hear, and feel around you.",
+                  "Visualize the environment in detail.",
+                  "Write 2–3 sentences describing your imagined place."
+                ],
+                "examples": [
+                  "Standing on a mountain",
+                  "Walking on the moon",
+                  "Swimming in the ocean",
+                  "Flying above your village"
+                ]
+              },
+              "activity_2": {
+                "title": "Draw Your Virtual World",
+                "steps": [
+                  "Draw the place you imagined in your notebook.",
+                  "Include objects, people, or animals.",
+                  "Add elements like sky, land, water, or buildings.",
+                  "Think about how your drawing represents a virtual world.",
+                  "Relate your drawing to how VR creates environments."
+                ],
+                "examples": [
+                  "Mountain scene with clouds and sun",
+                  "Ocean with fish and water waves",
+                  "Village view from above"
+                ]
+              },
+              "activity_3": {
+                "title": "Explore Your Surroundings",
+                "steps": [
+                  "Stand in one place.",
+                  "Look around in all directions: left, right, up, down, and behind.",
+                  "Observe how the view changes when you move your head.",
+                  "Think about how your perspective changes.",
+                  "Relate this to how VR works."
+                ],
+                "examples": [
+                  "Looking around a room",
+                  "Observing objects from different angles"
+                ]
+              }
+            },
+            "extra_exploration": {
+              "task": "Ask someone where they would like to travel using Virtual Reality and think about how VR enables exploration without physical movement.",
+              "examples": [
+                "Taj Mahal",
+                "Space",
+                "Deep ocean",
+                "Jungle safari"
+              ]
+            },
+            "think_and_notice": [
+              "Which place did you imagine visiting?",
+              "How did your drawing show that place?",
+              "Why does VR make people feel like they are inside another world?"
+            ],
+            "discussion_instruction": "Discuss your answers with your parents or elders.",
+            "nep_skills_developed": [
+              "Experiential learning",
+              "Imagination and creativity",
+              "Observation skills",
+              "Conceptual thinking"
+            ],
+            "learning_outcomes": [
+              {
+                "id": 1,
+                "title": "Understand the concept of virtual environments",
+                "description": "Students learn that Virtual Reality creates a world that feels real but is computer-generated."
+              },
+              {
+                "id": 2,
+                "title": "Develop imagination and visualization skills",
+                "description": "Students create and describe their own virtual environments."
+              },
+              {
+                "id": 3,
+                "title": "Understand immersive experience",
+                "description": "Students observe how perspective changes when they move their head."
+              },
+              {
+                "id": 4,
+                "title": "Connect VR technology with real-life learning and exploration",
+                "description": "Students understand how VR can help people explore places and experiences."
+              }
+            ],
+            "bonus_activity": [
+              "Look at any picture in a book or poster.",
+              "Imagine stepping inside the picture and observing the surroundings.",
+              "Think about what you would see, hear, or feel.",
+              "Write one sentence describing that experience."
+            ]
+          }
+    ]
+}

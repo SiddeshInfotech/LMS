@@ -1,0 +1,26 @@
+{
+  "Electronics": {
+    "question": "What is a basic electrical circuit?",
+    "answer": "A basic electrical circuit is a simple loop through which electricity can flow. It includes a power source like a battery, connecting wires, and a device such as an LED. When all parts are connected properly without gaps, electricity can travel in a complete path and make the LED glow."
+    },
+  "IoT": {
+    "question": "What is the Internet of Things (IoT)?",
+    "answer": "IoT refers to the network of interconnected devices that communicate and exchange data with each other over the internet."
+  },
+  "Robotics": {
+    "question": "What is a robot?",
+    "answer": "A robot is a programmable machine capable of carrying out a series of actions automatically, especially by being programmed by a computer."
+  },
+  "Drone": {
+    "question": "What is a drone?",
+    "answer": "A drone is an unmanned aerial vehicle (UAV) that can be remotely controlled or fly autonomously through software-controlled flight plans."
+  },
+  "AI": {
+    "question": "What is Artificial Intelligence (AI)?",
+    "answer": "AI is the simulation of human intelligence in machines that are programmed to think and learn like humans."
+  },
+  "AR/VR": {
+    "question": "What is the difference between AR and VR?",
+    "answer": "AR (Augmented Reality) overlays digital content on the real world, while VR (Virtual Reality) immerses the user in a completely virtual environment."
+  }
+}
