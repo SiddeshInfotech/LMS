@@ -9,6 +9,9 @@ const isDev = import.meta.env.DEV;
 // Always log the startup even in production so we can see it in the console
 console.log('APP: Starting deployment bundle...');
 
+const hasElectron = !!window.electronAPI;
+console.log(`RENDERER: Environment: ${hasElectron ? 'ELECTRON' : 'BROWSER'}`);
+
 if (isDev) {
   console.log('RENDERER: Bootstrapping in development mode...');
 

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 interface ElectronGuardOptions {
   onViolation: (reason: string, isHardBan?: boolean) => void;
   setViolationActive: (active: boolean, reason?: string) => void;
+  setThreatLevel: (level: 'LOW' | 'MEDIUM' | 'HIGH', reason?: string) => void;
   enabled: boolean;
 }
 
@@ -12,7 +13,7 @@ interface ElectronGuardOptions {
  * useElectronGuard
  * Connects to the Electron Main process to listen for OS-level threats.
  */
-export function useElectronGuard({ onViolation, setViolationActive, enabled }: ElectronGuardOptions) {
+export function useElectronGuard({ onViolation, setViolationActive, setThreatLevel, enabled }: ElectronGuardOptions) {
   const [isRecording, setIsRecording] = useState(false);
   
   useEffect(() => {
@@ -30,6 +31,11 @@ export function useElectronGuard({ onViolation, setViolationActive, enabled }: E
       onViolation(reason || "Security Policy Violation (Remote)");
     });
 
+    // 3. Listen for Medium/High threat levels (Dynamic Protection)
+    window.electronAPI.onSecurityThreat(({ level, reason }: { level: 'LOW' | 'MEDIUM' | 'HIGH', reason: string }) => {
+      setThreatLevel(level, reason);
+    });
+
     // 3. Initial check (if login is even allowed)
     window.electronAPI.checkCanLogin().then(({ allowed }: { allowed: boolean }) => {
       if (!allowed) {
@@ -44,9 +50,8 @@ export function useElectronGuard({ onViolation, setViolationActive, enabled }: E
     window.electronAPI.startSecurityScan?.()?.catch?.(console.error);
 
     return () => {
-      // Disarm protection when leaving
+      // Disarm security scan ONLY when leaving (Protection remains ON via Main Process)
       if (window.electronAPI) {
-        window.electronAPI.setProtection?.(false)?.catch?.(console.error);
         window.electronAPI.stopSecurityScan?.();
       }
     };

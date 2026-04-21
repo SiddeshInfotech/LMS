@@ -4,13 +4,13 @@ const fs = require('fs');
 const privateKey = fs.readFileSync('tools/private.pem', 'utf8');
 
 const args = process.argv.slice(2);
-if (args.length < 2) {
-    console.log('Usage: node tools/sign_license.cjs <hardware_id> <expiry_date> [min_app_version]');
+if (args.length < 1) {
+    console.log('Usage: node tools/sign_license.cjs <hardware_id> [machine_name] [min_app_version]');
     process.exit(1);
 }
 
 const hardwareId = args[0];
-const expiry = args[1];
+const machineName = args[1] || "LMS-Station";
 const minVersion = args[2] || "1.0.0";
 
 const masterKeyHex = fs.readFileSync('tools/master_key.txt', 'utf8').trim();
@@ -33,11 +33,10 @@ const encryptedMasterKey = Buffer.concat([cipher.update(masterKey), cipher.final
 
 const licenseData = {
     license_id: `LIC-${Date.now().toString().slice(-6)}`,
+    machine_name: machineName,
     hardware_id: hardwareId,
     master_key: encryptedMasterKey.toString('base64'),
-    min_app_version: minVersion,
-    issued_at: new Date().toISOString().split('T')[0],
-    expiry: expiry
+    min_app_version: minVersion
 };
 
 function canonicalStringify(obj) {

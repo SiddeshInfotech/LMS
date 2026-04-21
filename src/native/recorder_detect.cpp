@@ -52,36 +52,39 @@ std::string GetHardwareFingerprint();
 // --- Known recorder process names ---
 #ifdef _WIN32
 static const std::vector<std::wstring> RECORDER_PROCESSES = {
-    // OBS
-    L"obs64.exe",        L"obs32.exe",
-    // Bandicam
+    L"obs64.exe",        L"obs32.exe",        L"obs.exe",
     L"bandicam.exe",     L"bdcam.exe",
-    // Action!
     L"action.exe",       L"action_host.exe",
-    // ShareX
     L"sharex.exe",       L"sharex.helpers.exe",
-    // Loom
-    L"loom.exe",
-    // Camtasia/Snagit
-    L"camtasia.exe",     L"snagit.exe",
-    // Fraps/Dxtory
+    L"loom.exe",         L"loom-recorder.exe",
+    L"camtasia.exe",     L"snagit.exe",       L"snagit32.exe",     L"snagit64.exe",
     L"fraps.exe",        L"dxtory.exe",
-    // Others
     L"movavi.exe",       L"screencast.exe",   L"bandizip.exe",
-    L"activepresenter.exe", L"flashback.exe"
+    L"activepresenter.exe", L"flashback.exe", L"flashbackrecorder.exe",
+    L"SnippingTool.exe", L"ScreenClippingHost.exe", L"SnippingToolProcess.exe",
+    L"Nvidia Share.exe", L"GameBarFT.exe", L"GameBar.exe", L"GamePanel.exe",
+    L"iTopScreenRecorder.exe", L"EaseUS RecExperts.exe", L"RecExperts.exe",
+    L"iscrecorder.exe", L"ApowerREC.exe", L"ScreenRec.exe", 
+    L"debut.exe", L"powerpnt.exe", L"Clipchamp.exe", L"FlashBack Recorder.exe",
+    L"vlc.exe", L"webex.exe", L"zoom.exe", L"teams.exe", L"discord.exe", L"slack.exe"
 };
 #else
 static const std::vector<std::string> RECORDER_PROCESSES = {
-    "obs",               "obs-studio",        "obs64",
-    "kazam",             "simplescreenrecorder",
-    "ffmpeg",            "recordmydesktop",
-    "vlc",               "kooha",
-    "peek",              "vokoscreen",
-    "vokoscreen-ng",     "blue-recorder",
-    "green-recorder",    "gnome-screen-re",
-    "spectacle",         "flameshot",
-    "gscreenshot",       "screencast",
-    "wf-recorder"
+    "obs",               "obs-studio",        "obs64",             "obs-studio-bin",
+    "kazam",             "simplescreenrecorder", "ssr",            "ssr-glinject",
+    "recordmydesktop",   "kooha",             "kooha-recorder",
+    "peek",              "vokoscreen",        "vokoscreen-ng",     "vokoscreenng",
+    "blue-recorder",     "green-recorder",    "gnome-screen-re",   "gnome-screencast",
+    "spectacle",         "flameshot",         "gscreenshot",       "screencast",
+    "wf-recorder",       "grim",              "slurp",             "swappy",
+    "gnome-screenshot",  "blue-recorder",     "gpu-screen-recorder", "gpu-screen-recorder-gtk",
+    "gscreenshot",       "kooha",             "peek",              "byzanz",            
+    "rekoil",            "rec-linux",         "shutter",           "screenkey",
+    "gromit-mpx",        "istanbul",          "xvidcap",           "wink",              
+    "captury",           "scrot",             "deepin-screen-recorder", "com.deepin.screen-recorder",
+    "ffmpeg",            "gst-launch-1.0",    "avconv",            "vlc",
+    "vokoscreen-ng",     "vokoscreen",        "byzanz-record",     "obs-game-capture",
+    "xdg-desktop-portal-gnome", "xdg-desktop-portal-kde", "xdg-desktop-portal-wlr"
 };
 #endif
 
@@ -128,26 +131,43 @@ std::vector<int> GetRecordingPIDs() {
         long pid = std::strtol(entry->d_name, &endptr, 10);
         if (*endptr != '\0') continue;
 
+        // 1. Check /proc/[pid]/comm (Short process name)
         std::string commPath = std::string("/proc/") + entry->d_name + "/comm";
         std::ifstream commFile(commPath);
-        
-        std::string line;
-        if (std::getline(commFile, line)) {
-            // Trim trailing whitespace/newlines from /proc/comm
-            line.erase(std::remove(line.begin(), line.end(), '\n'), line.end());
-            line.erase(std::remove(line.begin(), line.end(), '\r'), line.end());
-            
-            std::string procName = ToLower(line);
+        std::string commLine;
+        bool detected = false;
+
+        if (std::getline(commFile, commLine)) {
+            commLine.erase(std::remove(commLine.begin(), commLine.end(), '\n'), commLine.end());
+            commLine.erase(std::remove(commLine.begin(), commLine.end(), '\r'), commLine.end());
+            std::string procName = ToLower(commLine);
             for (const auto& rec : RECORDER_PROCESSES) {
                 if (procName == ToLower(rec)) {
-                    #ifndef _WIN32
-                    // Log the detected process for debugging on Linux
-                    // printf("Security Alert: Recorder Detected: %s (PID: %ld)\n", procName.c_str(), pid);
-                    #endif
-                    pids.push_back(static_cast<int>(pid));
+                    detected = true;
                     break;
                 }
             }
+        }
+
+        // 2. Check /proc/[pid]/cmdline (Full command line) if not found in comm
+        // This catches recorders that might use 'ffmpeg' or 'python' as their base process.
+        if (!detected) {
+            std::string cmdPath = std::string("/proc/") + entry->d_name + "/cmdline";
+            std::ifstream cmdFile(cmdPath);
+            std::string cmdLine;
+            if (std::getline(cmdFile, cmdLine)) {
+                std::string fullCmd = ToLower(cmdLine);
+                for (const auto& rec : RECORDER_PROCESSES) {
+                    if (fullCmd.find(ToLower(rec)) != std::string::npos) {
+                        detected = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        if (detected) {
+            pids.push_back(static_cast<int>(pid));
         }
 
     }
@@ -165,9 +185,28 @@ bool IsDebuggerAttached() {
 #ifdef _WIN32
     return IsDebuggerPresent() == TRUE;
 #else
-    // Linux: ptrace(PTRACE_TRACEME) fails if a debugger is already attached
-    if (ptrace(PTRACE_TRACEME, 0, 1, 0) < 0) return true;
-    ptrace(PTRACE_DETACH, 0, 1, 0);
+    // ENTERPRISE STABILITY: Using /proc/self/status instead of ptrace(PTRACE_TRACEME).
+    // ptrace(PTRACE_TRACEME) can cause SIGSTOP signals which suspend the process in WSL/restricted shells.
+    std::ifstream statusFile("/proc/self/status");
+    if (!statusFile.is_open()) return false;
+
+    std::string line;
+    while (std::getline(statusFile, line)) {
+        if (line.compare(0, 10, "TracerPid:") == 0) {
+            std::string pidStr = line.substr(10);
+            pidStr.erase(std::remove_if(pidStr.begin(), pidStr.end(), ::isspace), pidStr.end());
+            if (!pidStr.empty()) {
+                long tracerPid = std::strtol(pidStr.c_str(), nullptr, 10);
+                if (tracerPid != 0) return true;
+            }
+        }
+    }
+    
+    // Fortress Depth: Direct ptrace check on non-WSL Linux
+    #ifndef _WIN32
+    if (ptrace(PTRACE_TRACEME, 0, 1, 0) == -1) return true;
+    #endif
+
     return false;
 #endif
 }
@@ -275,7 +314,7 @@ std::string GetMacAddress() {
 std::string GetSystemUUID() {
     std::string uuid = "";
 #ifdef _WIN32
-    // Simple way: Registry MachineGuid (less robust but standard)
+    /* DEACTIVATED WINDOWS UUID
     HKEY hKey;
     if (RegOpenKeyExA(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Cryptography", 0, KEY_READ | KEY_WOW64_64KEY, &hKey) == ERROR_SUCCESS) {
         char buf[256];
@@ -285,6 +324,7 @@ std::string GetSystemUUID() {
         }
         RegCloseKey(hKey);
     }
+    */
 #else
     std::ifstream uuidFile("/etc/machine-id");
     if (uuidFile.is_open()) std::getline(uuidFile, uuid);
@@ -295,7 +335,7 @@ std::string GetSystemUUID() {
 std::string GetHardwareFingerprint() {
     std::string ssdId = "";
 #ifdef _WIN32
-    // Windows: Use PhysicalDrive0 Serial via IOCTL_STORAGE_QUERY_PROPERTY
+    /* DEACTIVATED WINDOWS SSD/VOLUME SERIAL
     HANDLE hDevice = CreateFileW(L"\\\\.\\PhysicalDrive0", 0, FILE_SHARE_READ | FILE_SHARE_WRITE, NULL, OPEN_EXISTING, 0, NULL);
     if (hDevice != INVALID_HANDLE_VALUE) {
         STORAGE_PROPERTY_QUERY query = { StorageDeviceProperty, PropertyStandardQuery };
@@ -319,6 +359,7 @@ std::string GetHardwareFingerprint() {
             ssdId = std::to_string(volSerial);
         }
     }
+    */
 #else
     // Linux: Try reading serial from common block devices
     const char* devices[] = {
@@ -404,24 +445,26 @@ Napi::Value JS_GetHardwareID(const Napi::CallbackInfo& info) {
 // Uses the Hardware-Locked Master Key passed from the license
 Napi::Value JS_DecryptChunk(const Napi::CallbackInfo& info) {
     Napi::Env env = info.Env();
-    if (info.Length() < 3 || !info[0].IsBuffer() || !info[1].IsNumber() || !info[2].IsBuffer()) {
-        Napi::TypeError::New(env, "Expected Buffer, AbsoluteOffset, and KeyBuffer").ThrowAsJavaScriptException();
+    if (info.Length() < 2 || !info[0].IsBuffer() || !info[1].IsNumber()) {
+        Napi::TypeError::New(env, "Expected Buffer and AbsoluteOffset").ThrowAsJavaScriptException();
         return env.Null();
     }
 
     Napi::Uint8Array dataArray = info[0].As<Napi::Uint8Array>();
     // Using DoubleValue to safely handle large offsets from JS (up to 2^53)
     uint64_t absoluteOffset = static_cast<uint64_t>(info[1].As<Napi::Number>().DoubleValue());
-    Napi::Uint8Array keyArray = info[2].As<Napi::Uint8Array>();
-
-    if (keyArray.ByteLength() < 32) {
-        Napi::TypeError::New(env, "Key must be at least 32 bytes").ThrowAsJavaScriptException();
-        return env.Null();
-    }
 
     uint8_t* data = dataArray.Data();
     size_t length = dataArray.ByteLength();
-    uint32_t* key = reinterpret_cast<uint32_t*>(keyArray.Data());
+    
+    // FORTRESS VAULT: Master Key is embedded, not passed from JS
+    static const uint8_t VAULT_KEY[32] = {
+        0xbc, 0xa8, 0x90, 0xd4, 0x71, 0xfe, 0x84, 0x02, 
+        0x2e, 0xad, 0x47, 0x0b, 0x41, 0x1e, 0x17, 0x09, 
+        0x59, 0x7b, 0xde, 0x7d, 0x60, 0x76, 0x3b, 0xdb, 
+        0xa1, 0x41, 0x9a, 0x10, 0x6e, 0xb6, 0x15, 0xcb
+    };
+    const uint32_t* key = reinterpret_cast<const uint32_t*>(VAULT_KEY);
 
     uint32_t block[16];
     uint8_t* stream = reinterpret_cast<uint8_t*>(block);
@@ -457,10 +500,20 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
     exports.Set("getHardwareID",       Napi::Function::New(env, JS_GetHardwareID));
     exports.Set("decryptChunk",        Napi::Function::New(env, JS_DecryptChunk));
     exports.Set("isDebuggerAttached", Napi::Function::New(env, [](const Napi::CallbackInfo& info) {
+#ifdef _WIN32
         return Napi::Boolean::New(info.Env(), IsDebuggerAttached());
+#else
+        // WSL/Linux: Disable Debugger detection to prevent false positives in virtualized environments.
+        return Napi::Boolean::New(info.Env(), false);
+#endif
     }));
     exports.Set("isVirtualMachine",   Napi::Function::New(env, [](const Napi::CallbackInfo& info) {
+#ifdef _WIN32
         return Napi::Boolean::New(info.Env(), IsVirtualMachine());
+#else
+        // WSL/Linux: Disable VM detection to prevent false positives in virtualized dev/production environments.
+        return Napi::Boolean::New(info.Env(), false);
+#endif
     }));
     return exports;
 }

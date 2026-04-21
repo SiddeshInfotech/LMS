@@ -7,11 +7,13 @@ interface SecurityState {
   isSecured: boolean;
   violationReason: string | null;
   isGracePeriod: boolean;
+  threatLevel: 'LOW' | 'MEDIUM' | 'HIGH';
 }
 
 interface SecurityContextType extends SecurityState {
   reportViolation: (reason: string, isHardBan?: boolean) => void;
   setViolationActive: (active: boolean, reason?: string) => void;
+  setThreatLevel: (level: 'LOW' | 'MEDIUM' | 'HIGH', reason?: string) => void;
   setSecured: (secured: boolean) => void;
   resetSecurity: () => void;
 }
@@ -26,6 +28,7 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
     isSecured: false,
     violationReason: null,
     isGracePeriod: false,
+    threatLevel: 'LOW',
   });
 
   // 1. Violation Handler
@@ -54,6 +57,15 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
     }));
   }, []);
 
+  const setThreatLevel = useCallback((level: 'LOW' | 'MEDIUM' | 'HIGH', reason: string = "") => {
+    setState(prev => ({
+      ...prev,
+      threatLevel: level,
+      violationReason: reason || prev.violationReason,
+      isViolationActive: level === 'HIGH' ? true : prev.isViolationActive
+    }));
+  }, []);
+
   const setSecured = useCallback((secured: boolean) => {
     setState(prev => ({ ...prev, isSecured: secured }));
   }, []);
@@ -71,6 +83,7 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
         isSecured: false,
         violationReason: null,
         isGracePeriod: false,
+        threatLevel: 'LOW',
       });
       navigate("/");
     }
@@ -85,7 +98,7 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <SecurityContext.Provider value={{ ...state, reportViolation, setViolationActive, setSecured, resetSecurity }}>
+    <SecurityContext.Provider value={{ ...state, reportViolation, setViolationActive, setThreatLevel, setSecured, resetSecurity }}>
       {children}
     </SecurityContext.Provider>
   );

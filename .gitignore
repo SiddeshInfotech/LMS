@@ -86,6 +86,7 @@ license.lic
 dist/
 dist_electron/
 build/
+*.deb
 node_modules/
 .vscode/
 .idea/

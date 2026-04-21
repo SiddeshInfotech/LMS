@@ -82,7 +82,7 @@ const FaqsPage: React.FC = () => {
   // Remove handleAudio and FAQ logic for now
 
   return (
-    <div className="faqs-main-container">
+    <div className="faqs-main-container" lang={language}>
       <div style={{ width: '100%', display: 'flex', justifyContent: 'flex-end', alignItems: 'center', padding: '1.2rem 2.5rem 0.5rem 0', position: 'absolute', top: 0, right: 0, zIndex: 20 }}>
         <label htmlFor="faq-lang-select" style={{ fontWeight: 600, marginRight: 8 }}>Language:</label>
         <select

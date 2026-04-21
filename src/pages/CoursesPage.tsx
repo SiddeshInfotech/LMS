@@ -103,8 +103,8 @@ interface CoursesPageProps {
 }
 
 // Move static assets and helpers outside the component to prevent re-creation on every render
-const VIDEO_ASSETS = (import.meta.env.DEV 
-  ? import.meta.glob('../../videos/**/*.mp4', { eager: true, import: 'default' }) 
+const VIDEO_ASSETS = (import.meta.env.DEV
+  ? import.meta.glob('../../videos/**/*.mp4', { eager: true, import: 'default' })
   : {}) as Record<string, string>;
 
 const quizTemplateQuestions: QuizQuestion[] = [
@@ -177,15 +177,15 @@ const resolveVideoUrl = (path: string): string => {
 
   // In Production Mode (.deb), force secure protocol for encrypted assets
   if (import.meta.env.PROD && (window as any).electronAPI) {
-      // Preserve the full path from @/assets/videos/ to find nested assets
-      const subPath = path.replace(/^@\/assets\/videos\//, '').replace('.mp4', '.lmsx');
-      return `lms-secure://${subPath}`;
+    // Preserve the full path from @/assets/videos/ to find nested assets
+    const subPath = path.replace(/^@\/assets\/videos\//, '').replace('.mp4', '.lmsx');
+    return `lms-secure://${subPath}`;
   }
 
-  const normalizedPath = path.includes('/assets/videos/') 
+  const normalizedPath = path.includes('/assets/videos/')
     ? path.replace(/^@\/assets\/videos\//, '../../videos/')
     : path.replace(/^@\//, '../');
-  
+
   return VIDEO_ASSETS[normalizedPath] || path;
 };
 
@@ -238,17 +238,17 @@ const generateCategoryDays = (moduleId: string, quizBank: QuizBank): Day[] => {
 };
 
 // MEMOIZED SIDEBAR COMPONENTS - Prevents expensive re-renders
-const SidebarVideoItem = memo(({ 
-  video, 
-  isSelected, 
-  isCompleted, 
-  unlocked, 
-  onClick 
-}: { 
-  video: Video; 
-  isSelected: boolean; 
-  isCompleted: boolean; 
-  unlocked: boolean; 
+const SidebarVideoItem = memo(({
+  video,
+  isSelected,
+  isCompleted,
+  unlocked,
+  onClick
+}: {
+  video: Video;
+  isSelected: boolean;
+  isCompleted: boolean;
+  unlocked: boolean;
   onClick: (video: Video) => void;
 }) => (
   <div className="video-branch-item" style={{ position: 'relative' }}>
@@ -267,27 +267,27 @@ const SidebarVideoItem = memo(({
   </div>
 ));
 
-const SidebarDayItem = memo(({ 
-  day, 
-  isExpanded, 
-  selectedVideoId, 
-  completedVideos, 
-  isUnlocked, 
-  onToggle, 
+const SidebarDayItem = memo(({
+  day,
+  isExpanded,
+  selectedVideoId,
+  completedVideos,
+  isUnlocked,
+  onToggle,
   onVideoClick,
-  dayRef 
-}: { 
-  day: Day; 
-  isExpanded: boolean; 
-  selectedVideoId?: string; 
-  completedVideos: string[]; 
+  dayRef
+}: {
+  day: Day;
+  isExpanded: boolean;
+  selectedVideoId?: string;
+  completedVideos: string[];
   isUnlocked: (video: Video) => boolean;
   onToggle: (id: string) => void;
   onVideoClick: (video: Video) => void;
   dayRef: (el: HTMLDivElement | null) => void;
 }) => {
   const activeTopicIndex = useMemo(() => day.videos.findIndex(v => v.id === selectedVideoId), [day.videos, selectedVideoId]);
-  
+
   const progressPercent = useMemo(() => {
     if (activeTopicIndex === -1) return 0;
     const itemHeight = 40;
@@ -320,7 +320,7 @@ const SidebarDayItem = memo(({
           )}
           {day.videos.length > 0 ? (
             day.videos.map((video) => (
-              <SidebarVideoItem 
+              <SidebarVideoItem
                 key={video.id}
                 video={video}
                 isSelected={selectedVideoId === video.id}
@@ -390,7 +390,7 @@ const SidebarCategoryItem = memo(({
           />
           {category.days && category.days.length > 0 ? (
             category.days.map((day) => (
-              <SidebarDayItem 
+              <SidebarDayItem
                 key={day.id}
                 day={day}
                 isExpanded={expandedDays.includes(day.id)}
@@ -404,7 +404,7 @@ const SidebarCategoryItem = memo(({
             ))
           ) : category.videos.length > 0 ? (
             category.videos.map((video) => (
-              <SidebarVideoItem 
+              <SidebarVideoItem
                 key={video.id}
                 video={video}
                 isSelected={selectedVideoId === video.id}
@@ -423,6 +423,13 @@ const SidebarCategoryItem = memo(({
     </div>
   );
 });
+
+// Helper to detect if a string contains Marathi (Devanagari) characters
+const hasMarathi = (text: string | string[] | any): boolean => {
+  if (!text) return false;
+  const str = Array.isArray(text) ? text.join('') : typeof text === 'string' ? text : JSON.stringify(text);
+  return /[\u0900-\u097F]/.test(str);
+};
 
 function CoursesPage({ onHome }: CoursesPageProps) {
   const quizBank: QuizBank = electronicsQuizBank as QuizBank;
@@ -547,7 +554,7 @@ function CoursesPage({ onHome }: CoursesPageProps) {
       // Find the furthest day that has completed content
       const lastCompletedVideoId = completedVideos.length > 0 ? completedVideos[completedVideos.length - 1] : null;
       let progressDayId = null;
-      
+
       if (lastCompletedVideoId) {
         const context = findVideoContext(lastCompletedVideoId);
         progressDayId = context?.dayId;
@@ -912,7 +919,7 @@ function CoursesPage({ onHome }: CoursesPageProps) {
 
         <div className="categories-list">
           {categories.map((category) => (
-            <SidebarCategoryItem 
+            <SidebarCategoryItem
               key={category.id}
               category={category}
               expandedCategoryId={expandedCategory}
@@ -943,7 +950,10 @@ function CoursesPage({ onHome }: CoursesPageProps) {
                 <p className="video-description">{selectedVideo.description}</p>
               </div>
               {selectedVideo.contentType === 'activity' && selectedVideo.activityItem ? (
-                <div className="activity-wrapper">
+                <div 
+                  className="activity-wrapper" 
+                  lang={hasMarathi(selectedVideo.activityItem) ? 'mr' : 'en'}
+                >
                   {/* Topic banner */}
                   <div className="activity-topic-banner">
                     <span className="activity-topic-label">📚 Topic:</span>
@@ -1233,7 +1243,10 @@ function CoursesPage({ onHome }: CoursesPageProps) {
                   )}
                 </div>
               ) : selectedVideo.contentType === 'quiz' && selectedVideo.quiz ? (
-                <div className="quiz-wrapper">
+                <div 
+                  className="quiz-wrapper"
+                  lang={hasMarathi(selectedVideo.quiz.questions) ? 'mr' : 'en'}
+                >
                   {!submittedQuizzes[selectedVideo.id] ? (
                     <>
                       {selectedVideo.quiz.questions.map((question, questionIndex) => (

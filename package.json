@@ -1,27 +1,34 @@
 {
   "name": "ai-and-mechatronix-lab",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "Secure Enterprise Learning Management System with Hardware Locking",
+  "author": "Siddesh Global Education Society",
   "type": "module",
-  "main": "main.cjs",
+  "main": "main-loader.cjs",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
     "electron-start": "electron .",
+    "dev-start": "electron main.cjs",
     "build": "vite build",
     "rebuild": "npx rimraf build && npx node-gyp rebuild",
     "postbuild:video": "node tools/encrypt_assets.cjs",
-    "package-win": "npm run rebuild && npm run build && npm run postbuild:video && electron-builder --win --x64",
-    "package-linux": "npm run rebuild && npm run build && npm run postbuild:video && electron-builder --linux deb --x64"
+    "compile:fortress": "electron tools/compile_fortress.cjs",
+    "package-linux": "npm run rebuild && npm run build && npm run postbuild:video && npm run compile:fortress && electron-builder --linux --x64",
+    "linux-setup": "sudo bash setup_linux.sh",
+    "linux-run": "npm run compile:fortress && export ELECTRON_DISABLE_SANDBOX=1 && ./node_modules/.bin/electron . --no-sandbox --disable-gpu --disable-dev-shm-usage"
   },
   "build": {
-    "appId": "com.lms.security",
-    "productName": "LMS Security Test",
+    "appId": "com.lms.app",
+    "productName": "LMS",
     "files": [
       "dist/**/*",
       "build/Release/recorder_detect.node",
-      "main.cjs",
-      "preload.cjs",
+      "main.jsc",
+      "main-loader.cjs",
+      "preload.jsc",
+      "preload-loader.cjs",
       "package.json"
     ],
     "extraResources": [
@@ -33,10 +40,16 @@
         "from": "resources/encrypted",
         "to": "encrypted"
       },
-      "license.lic",
       "tools/public.pem",
-      "tools/master_key.txt"
+      "tools/get_hwid.cjs",
+      "tools/master_key.txt",
+      "LICENSE_MANAGEMENT_SOP.md",
+      {
+        "from": "registry",
+        "to": "registry"
+      }
     ],
+
     "directories": {
       "output": "dist_electron",
       "buildResources": "resources"
@@ -45,9 +58,26 @@
       "target": "portable"
     },
     "linux": {
-      "target": "deb",
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Education",
       "maintainer": "LMS Admin",
-      "executableName": "lms-secure"
+      "executableName": "lms-secure",
+      "asarUnpack": [
+        "**/*.jsc",
+        "**/*.node"
+      ],
+      "executableArgs": [
+        "--no-sandbox"
+      ]
+    },
+
+
+    "deb": {
+      "afterInstall": "scripts/after-install.sh",
+      "afterRemove": "scripts/after-remove.sh"
     },
     "npmRebuild": false
   },
@@ -60,7 +90,8 @@
     "node-addon-api": "^8.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.1"
+    "react-router-dom": "^6.30.1",
+    "bytenode": "^1.5.7"
   },
   "devDependencies": {
     "@types/react": "^18.3.12",

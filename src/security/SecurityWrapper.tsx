@@ -6,6 +6,7 @@ import { BrowserGuard } from "./BrowserGuard";
 import { TabGuard } from "./TabGuard";
 import { LockoutOverlay } from "./LockoutOverlay";
 import { CaptureAlert } from "./CaptureAlert";
+import { DynamicWatermark } from "./DynamicWatermark";
 
 /**
  * SecurityWrapper
@@ -18,8 +19,10 @@ export default function SecurityWrapper({ children }: { children: React.ReactNod
     isViolationActive,
     reportViolation,
     setViolationActive,
+    setThreatLevel,
     isSecured,
     violationReason,
+    threatLevel,
     resetSecurity
   } = useSecurity();
   const location = useLocation();
@@ -34,6 +37,7 @@ export default function SecurityWrapper({ children }: { children: React.ReactNod
   useElectronGuard({
     onViolation: reportViolation,
     setViolationActive: setViolationActive,
+    setThreatLevel: setThreatLevel,
     enabled: true,
   });
 
@@ -48,6 +52,11 @@ export default function SecurityWrapper({ children }: { children: React.ReactNod
   return (
     <>
       {guards}
+
+      <DynamicWatermark 
+        userId={localStorage.getItem('user_id') || 'SIDDESH_SECURE_STATION'} 
+        isVisible={threatLevel === 'MEDIUM'} 
+      />
 
       {/* Content wrapper. Blacks out when a violation occurs, but stays in DOM to maintain state */}
       <div className={`min-h-screen transition-all duration-300 ${(isBanned || isViolationActive) ? "security-blackout" : ""} ${isSecured && !isLoginPage ? "select-none" : ""}`}>

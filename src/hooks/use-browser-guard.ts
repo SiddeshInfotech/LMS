@@ -34,8 +34,13 @@ export function useBrowserGuard({ onViolation, enabled, isSensitive }: BrowserGu
 
       const ctrlShift = e.ctrlKey && e.shiftKey;
       const cmdShift = e.metaKey && e.shiftKey;
+      const isDev = import.meta.env.DEV;
 
       if (e.key === "F12" || (ctrlShift && (e.key === "I" || e.key === "J" || e.key === "C"))) {
+        if (isDev) {
+          console.log('BROWSER: DevTools shortcut allowed in development mode.');
+          return true; 
+        }
         e.preventDefault();
         onViolation("DevTools Attempted");
         return false;
